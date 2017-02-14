@@ -10,14 +10,14 @@
       var twitterShare = "https://twitter.com/home?status=";
       var googleShare = "https://plus.google.com/share?url=";
 
+      //image URL to share. Colon must be escaped
+      var url = "http%3A//davidbrennan.ca/images/autodesk/sketchbook.jpg";
+
       // Get container element and create new link
       var body = document.getElementById("body"); //get container element
       var facebookLink = document.createElement('a'); //create new link
 
-      //image URL to share. Double slashes must be escaped
-      var url = "http%3A//davidbrennan.ca/images/autodesk/sketchbook.jpg";
-
-      //set link attributes
+      // Set link attributes
       facebookLink.setAttribute('href',facebookShare + url);
       facebookLink.innerHTML = "Share on Facebook";
       body.appendChild(facebookLink);
