@@ -1,0 +1,36 @@
+<!-- This will only work on a server because the links require an absolute path -->
+
+<html>
+  <head>
+  </head>
+  <body id="body">
+    <script>
+      // Share URLs
+      var facebookShare = "https://www.facebook.com/sharer/sharer.php?u=";
+      var twitterShare = "https://twitter.com/home?status=";
+      var googleShare = "https://plus.google.com/share?url=";
+
+      // Get container element and create new link
+      var body = document.getElementById("body"); //get container element
+      var facebookLink = document.createElement('a'); //create new link
+
+      //image URL to share. Double slashes must be escaped
+      var url = "http%3A//davidbrennan.ca/images/autodesk/sketchbook.jpg";
+
+      //set link attributes
+      facebookLink.setAttribute('href',facebookShare + url);
+      facebookLink.innerHTML = "Share on Facebook";
+      body.appendChild(facebookLink);
+    </script>
+
+
+    <!-- Facebook Share -->
+    <!-- <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//davidbrennan.ca/images/autodesk/sketchbook.jpg">Share on Facebook</a> -->
+
+    <!-- Twitter Share -->
+    <a href="https://twitter.com/home?status=http%3A//davidbrennan.ca/images/autodesk/sketchbook.jpg">Share on Twitter</a>
+
+    <!-- Google + Share in case anyone actually uses it -->
+    <a href="https://plus.google.com/share?url=http%3A//davidbrennan.ca/images/autodesk/sketchbook.jpg">Share on Google+</a>
+  </body>
+</html>
