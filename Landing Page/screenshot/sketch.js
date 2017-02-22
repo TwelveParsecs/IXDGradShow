@@ -1,10 +1,10 @@
 function setup() {
-  createCanvas(640, 480);
+    createCanvas(640, 480);
 }
 
 function draw() {
     fill(255);
-  	ellipse(mouseX, mouseY, 80, 80);
+    ellipse(mouseX, mouseY, 80, 80);
 }
 
 function mouseClicked() {
@@ -16,11 +16,27 @@ function mouseClicked() {
 
 var processSavedFrames = function(frames) {
   for (var i = 0, len=frames.length; i < len; i++) {
-    var f = frames[i];
+    var savedFrame = frames[i];
 
     // send image data to PHP server
-    console.log(f);
+    sendToPHPServer(savedFrame)
   }
 }
 
-// http://stackoverflow.com/questions/21926893/sending-an-image-and-json-data-to-server-using-ajax-post-request
+
+function sendToPHPServer(savedFrame) {
+    // object with ext, filename, imageData
+    console.log(savedFrame);
+
+    var xmlhttp = new XMLHttpRequest();
+
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            console.log(xmlhttp.responseText);
+        }
+    }
+
+    xmlhttp.open("POST", "saveimage.php", true);
+    xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); // crucial
+    xmlhttp.send("savedFrame=" + savedFrame);
+}
