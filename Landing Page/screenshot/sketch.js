@@ -8,8 +8,19 @@ function draw() {
 }
 
 function mouseClicked() {
-	console.log ("click registered");
-  saveCanvas('myCanvas', 'png');
+
+ // Save current frame (only saving one frame)
+  saveFrames('test','jpg',1,1,processSavedFrames);
+}
+
+
+var processSavedFrames = function(frames) {
+  for (var i = 0, len=frames.length; i < len; i++) {
+    var f = frames[i];
+
+    // send image data to PHP server
+    console.log(f);
+  }
 }
 
 // http://stackoverflow.com/questions/21926893/sending-an-image-and-json-data-to-server-using-ajax-post-request
