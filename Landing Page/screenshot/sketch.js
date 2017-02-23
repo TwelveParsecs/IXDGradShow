@@ -1,5 +1,6 @@
 function setup() {
     createCanvas(640, 480);
+    background(255);
 }
 
 function draw() {
@@ -10,19 +11,18 @@ function draw() {
 function mouseClicked() {
 
     // Save current frame (only saving one frame)
-    saveFrames('test', 'png', 1, 1, processSavedFrames);
+    saveFrames('test', 'jpg', 1, 1, processSavedFrames);
 }
 
 
 var processSavedFrames = function(frames) {
     for (var i = 0, len = frames.length; i < len; i++) {
-        var savedFrame = frames[i];
+        var savedFrame = frames[0];
 
         // send image data to PHP server
         sendToPHPServer(savedFrame.imageData)
     }
 }
-
 
 function sendToPHPServer(savedFrame) {
     // sends object with ext, filename, imageData
