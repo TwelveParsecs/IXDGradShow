@@ -4,7 +4,7 @@ if (isset($_POST["savedFrame"])) {
 
     $img = $_POST['savedFrame'];
 
-    echo 'Yay! Server received image data.';
+    echo 'Yay! Server received image data.' . "\n";
 
 } else {
     echo 'Error: No image data received.';
