@@ -10,7 +10,7 @@ function draw() {
 function mouseClicked() {
 
  // Save current frame (only saving one frame)
-  saveFrames('test','jpg',1,1,processSavedFrames);
+  saveFrames('test','png',1,1,processSavedFrames);
 }
 
 
@@ -19,14 +19,17 @@ var processSavedFrames = function(frames) {
     var savedFrame = frames[i];
 
     // send image data to PHP server
-    sendToPHPServer(savedFrame)
+
+    sendToPHPServer(savedFrame.imageData)
   }
 }
 
 
 function sendToPHPServer(savedFrame) {
     // object with ext, filename, imageData
-    console.log(savedFrame);
+    // console.log(savedFrame);
+
+    console.log("js image data "+savedFrame);
 
     var xmlhttp = new XMLHttpRequest();
 
@@ -37,6 +40,6 @@ function sendToPHPServer(savedFrame) {
     }
 
     xmlhttp.open("POST", "saveimage.php", true);
-    xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); // crucial
-    xmlhttp.send("savedFrame=" + savedFrame);
+    xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); 
+    xmlhttp.send("savedFrame=" + savedFrame); // sets variable
 }
