@@ -9,37 +9,34 @@ function draw() {
 
 function mouseClicked() {
 
- // Save current frame (only saving one frame)
-  saveFrames('test','png',1,1,processSavedFrames);
+    // Save current frame (only saving one frame)
+    saveFrames('test', 'png', 1, 1, processSavedFrames);
 }
 
 
 var processSavedFrames = function(frames) {
-  for (var i = 0, len=frames.length; i < len; i++) {
-    var savedFrame = frames[i];
+    for (var i = 0, len = frames.length; i < len; i++) {
+        var savedFrame = frames[i];
 
-    // send image data to PHP server
-
-    sendToPHPServer(savedFrame.imageData)
-  }
+        // send image data to PHP server
+        sendToPHPServer(savedFrame.imageData)
+    }
 }
 
 
 function sendToPHPServer(savedFrame) {
-    // object with ext, filename, imageData
-    // console.log(savedFrame);
+    // sends object with ext, filename, imageData
 
-    console.log("js image data "+savedFrame);
+    // console.log("js image data " + savedFrame);
 
     var xmlhttp = new XMLHttpRequest();
 
-    xmlhttp.onreadystatechange = function() {
-        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-            console.log(xmlhttp.responseText);
-        }
+    // server response
+    xmlhttp.onload = function() {
+        console.log(xmlhttp.responseText);
     }
 
     xmlhttp.open("POST", "saveimage.php", true);
-    xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); 
-    xmlhttp.send("savedFrame=" + savedFrame); // sets variable
+    xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xmlhttp.send("savedFrame=" + savedFrame); // sets savedFrame variable
 }
