@@ -11,7 +11,7 @@ if (isset($_POST["savedFrame"])) {
 }
 
 $img = str_replace('data:image/octet-stream;base64,', '', $img);
-$img = str_replace(' ', '+', $img);
+$img = str_replace(' ', '+', $img); // fuck encoding
 $data = base64_decode($img);
 
 // echo "php server image data " . $img;
