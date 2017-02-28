@@ -6,7 +6,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:900,900i" rel="stylesheet">
   </head>
 
-  <body>
+  <body onload="dropEgg()" >
+    <div class="loader" id="loader">
+      <img src="img/eggstill_small.png" id="egg" class="egg-still" onclick="openEgg()"/>
+      <div id="hatch" class="hatch">
+        click to hatch
+      </div>
+    </div>
+
 
     <div id="logo">
       <img id="brandmark" src="img/logo.svg"/>
@@ -64,5 +71,42 @@
       SHARE YOUR SKETCH
     </div>
 
+
+    <script>
+      var shaking = false;
+      var egg = document.getElementById("egg");
+      var text = document.getElementById("hatch");
+
+      function dropEgg(){
+        // Wait 200 milliseconds before executing
+        // These functions are asyncronous
+        setTimeout(function() {
+          egg.classList.add("egg-drop");
+        },1000);
+        setTimeout(function() {
+          egg.src="img/eggshaking_small.gif";
+          text.classList.add("hatch-appear");
+          shaking = true;
+        }, 2500);
+      }
+
+      function openEgg(){
+        if (shaking){
+          egg.src="img/eggcracking_small.gif";
+          text.classList.remove("hatch-appear");
+          
+          // Fade out egg
+          setTimeout(function() {
+            egg.classList.add("egg-disappear");
+          }, 1500);
+
+          // Fade out white background
+          setTimeout(function() {
+            document.getElementById('loader').classList.add("egg-disappear");
+          }, 2500);
+
+        }
+      }
+    </script>
   </body>
 </html>
