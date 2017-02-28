@@ -94,7 +94,7 @@
         if (shaking){
           egg.src="img/eggcracking_small.gif";
           text.classList.remove("hatch-appear");
-          
+
           // Fade out egg
           setTimeout(function() {
             egg.classList.add("egg-disappear");
@@ -104,6 +104,11 @@
           setTimeout(function() {
             document.getElementById('loader').classList.add("egg-disappear");
           }, 2500);
+
+          // Get rid of the white background
+          setTimeout(function() {
+            document.getElementById('loader').style.display = "none";
+          }, 3500);
 
         }
       }
