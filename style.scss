@@ -4,215 +4,351 @@ $darkgrey : #424242;
 $sans-serif: 'Roboto', Helvetica, Arial, sans-serif;
 $slab-serif: 'Roboto Slab', Helvetica, Arial, sans-serif;
 
+
+html{
+  font-size: 12px;
+}
+
 body{
   font-family: $sans-serif;
 }
 
+
 .loader{
-  background-color: #fff;
-  height:100%;
-  width:100%;
-  position: fixed;
-  top:0px;
-  left:0px;
-  z-index:100;
-  opacity:1;
-  -webkit-transition: all 1s; /* Safari */
-   transition: all 1s;
-}
-
-.loader-disappear{
-  opacity: 0;
-}
-
-.hatch{
-  position: absolute;
-  top: calc(50% + 125px);
-  left:50%;
-  transform: translate(-50%,-50%);
-  color:$grey;
-  font-family: $slab-serif;
-  font-weight:400;
-  opacity: 0;
-  -webkit-transition: opacity 0.5s; /* Safari */
-   transition: opacity 0.5s;
-}
-
-.hatch-appear{
-  opacity: 1;
-}
-
-.egg-still{
-  position: absolute;
-  top: 0%;
-  left:50%;
-  transform: translate(-50%,-100%);
-  opacity:1;
-  -webkit-transition: all 1s; /* Safari */
-   transition: all 1s;
-
-
-}
-
-.egg-drop{
-  top:50%;
-  transform: translate(-50%,-50%);
-  cursor:pointer;
-}
-
-.egg-disappear{
-  opacity:0;
-  cursor: auto;
-}
-
-.egg-disappear{
-  opacity:0;
-}
-
-#content{
-  position: absolute;
-  left:75px;
-  top:50px;
-}
-
-#logo{
-  position: absolute;
-  left:75px;
-  top:50px;
-
-  #brandmark{
-    width:37px;
+    background-color: #fff;
+    height:100%;
+    width:100%;
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index:100;
+    opacity:1;
+    -webkit-transition: all 1s; /* Safari */
+     transition: all 1s;
   }
-  #logotype{
-    position:relative;
-    top:-6px;
-    margin-left: 15px;
-    display: inline-block;
-    font-size: 0.875em;
-    letter-spacing:  0.5em;
-    line-height: 1.75em;
-    color:$darkgrey;
+
+  .loader-disappear{
+    opacity: 0;
   }
-}
 
-#title-block{
-  position: absolute;
-  top: 306px;
-  left:75px;
-  transform: translateY(-50%);
-
-
-  .title-label{
+  .hatch{
+    position: absolute;
+    top: calc(50% + 125px);
+    left:50%;
+    transform: translate(-50%,-50%);
     color:$grey;
     font-family: $slab-serif;
     font-weight:400;
-    font-size: 0.875em;
-    letter-spacing:  0.25em;
-    display:inline-block;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s; /* Safari */
+     transition: opacity 0.5s;
   }
 
-  .line{
-    display:inline-block;
-    background-color:$pink;
-    height:1px;
-    position:relative;
-    top: -0.3em;
-    margin: 0 20px;
+  .hatch-appear{
+    opacity: 1;
   }
 
-  #top-line{
-    width:225px;
+  .egg-still{
+    position: absolute;
+    top: 0%;
+    left:50%;
+    transform: translate(-50%,-100%);
+    opacity:1;
+    -webkit-transition: all 1s; /* Safari */
+     transition: all 1s;
   }
 
-  #bottom-line{
-    width:165px;
-    margin: 0 20px 0 10px;
+  .egg-drop{
+    top:50%;
+    transform: translate(-50%,-50%);
+    cursor:pointer;
   }
 
-  h1{
-    width:500px;
-    font-size: 5em;
-    color:$darkgrey;
-    margin: 25px 0;
+  .egg-disappear{
+    opacity:0;
+    cursor: auto;
   }
 
-  .social-icon{
-    width:30px;
-    display:inline-block;
-    position:relative;
-    top:10px;
-    margin-right:10px;
+  .egg-disappear{
+    opacity:0;
   }
-}
 
+  #logo{
+    position: absolute;
+    left:5%;
+    top:5%;
 
-#info{
-  position: absolute;
-  left:75px;
-  top:500px;
-  bottom
-  :auto;
-
-  h4{
-    color: $darkgrey;
-    font-size: 1em;
+    #brandmark{
+      width:2.4em;
+    }
+    #logotype{
+      position:relative;
+      top:-6px;
+      margin-left: 15px;
+      display: inline-block;
+      font-size: 0.875em;
+      letter-spacing:  0.5em;
+      line-height: 1.75em;
+      color:$darkgrey;
+    }
   }
-  .info-box{
-    display:inline-block;
-    width: 200px;
 
-    .details {
+  #title-block{
+    position: absolute;
+    left:50%;
+    top: 306px;
+    width: 90%;
+    max-width: 420px;
+    transform: translate(-50%,-50%);
+
+
+    .title-label{
+      color:$grey;
       font-family: $slab-serif;
       font-weight:400;
       font-size: 0.875em;
-      line-height: 1.5em;
-      color: $grey;
+      letter-spacing:  0.25em;
+      display:inline-block;
+    }
 
-      #invite{
-        color:$pink;
+    .line{
+      display:inline-block;
+      background-color:$pink;
+      height:1px;
+      position:relative;
+      top: -0.3em;
+      margin: 0 20px;
+    }
+
+    #top-line{
+      width:calc( 90% - 160px);
+    }
+
+    #bottom-line{
+      display:inline-block;
+      width:calc( 90% - 105px);
+      margin: 40px 20px 0 0px;
+    }
+
+    #bottom-line-group{
+      display:block;
+    }
+
+    h1{
+      font-size: 4em;
+      color:$darkgrey;
+      margin: 25px 0;
+    }
+
+    #social{
+      display:block;
+    }
+
+    .social-icon{
+      width:30px;
+      display:inline-block;
+      position:relative;
+      top:10px;
+      margin-right:10px;
+    }
+  }
+
+
+  #info{
+    position: absolute;
+    left:10%;
+    top:500px;
+    bottom:auto;
+    width:90%;
+    padding-bottom:20px;
+
+    h4{
+      color: $darkgrey;
+      font-size: 1em;
+    }
+    .info-box{
+      display:inline-block;
+      width:45%;
+      vertical-align:top;
+
+      .details {
+        font-family: $slab-serif;
+        font-weight:400;
+        font-size: 0.875em;
+        line-height: 1.5em;
+        color: $grey;
+
+        #invite{
+          color:$pink;
+        }
       }
     }
   }
+
+  #share{
+    display:none;
+    position:absolute;
+    right:50px;
+    top:550px;
+    bottom:auto;
+    width:12em;
+    text-align: center;
+    font-family: $slab-serif;
+    font-weight:400;
+    font-size: 0.875em;
+    color:$pink;
+    border-width: 1px;
+    border-style: solid;
+    padding:15px;
+    border-color: $pink;
+  }
+
+
+
+@media (min-width: 750px) {
+  html{
+    font-size: 16px;
+  }
+
+  .loader{
+    background-color: #fff;
+    height:100%;
+    width:100%;
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index:100;
+    opacity:1;
+    -webkit-transition: all 1s; /* Safari */
+     transition: all 1s;
+  }
+
+  .loader-disappear{
+    opacity: 0;
+  }
+
+  .hatch{
+    position: absolute;
+    top: calc(50% + 125px);
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:$grey;
+    font-family: $slab-serif;
+    font-weight:400;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s; /* Safari */
+     transition: opacity 0.5s;
+  }
+
+  .hatch-appear{
+    opacity: 1;
+  }
+
+  .egg-still{
+    position: absolute;
+    top: 0%;
+    left:50%;
+    transform: translate(-50%,-100%);
+    opacity:1;
+    -webkit-transition: all 1s; /* Safari */
+     transition: all 1s;
+
+
+  }
+
+  .egg-drop{
+    top:50%;
+    transform: translate(-50%,-50%);
+    cursor:pointer;
+  }
+
+  .egg-disappear{
+    opacity:0;
+    cursor: auto;
+  }
+
+  .egg-disappear{
+    opacity:0;
+  }
+
+  #logo{
+    position: absolute;
+    left:75px;
+    top:50px;
+
+    #brandmark{
+      width:37px;
+    }
+
+  }
+
+  #title-block{
+    position: absolute;
+    top: 306px;
+    left:75px;
+    width:auto;
+    max-width: none;
+    transform: translateY(-50%);
+
+
+    #top-line{
+      width:225px;
+    }
+
+    #bottom-line{
+      width:165px;
+      margin: 0 20px 0 10px;
+    }
+
+    #bottom-line-group{
+      display:inline-block;
+    }
+
+    h1{
+      width:500px;
+      font-size: 5em;
+    }
+
+    #social{
+      display:inline-block;
+    }
+  }
+
+
+  #info{
+    position: absolute;
+    left:75px;
+    top:500px;
+    bottom:auto;
+
+    .info-box{
+      width: 200px;
+    }
+  }
+
+  #share{
+    display: block;
+  }
 }
 
-#share{
-  position:absolute;
-  right:50px;
-  top:550px;
-  bottom:auto;
-  width:12em;
-  text-align: center;
-  font-family: $slab-serif;
-  font-weight:400;
-  font-size: 0.875em;
-  color:$pink;
-  border-width: 1px;
-  border-style: solid;
-  padding:15px;
-  border-color: $pink;
-}
 
 
 
-
-@media screen and (min-height: 750px) {
+@media (min-height: 750px) and (min-width: 750px){
 
   #title-block{
     position: absolute;
     top: 45%;
-    left:75px;
     transform: translateY(-50%);
   }
 
   #info{
     top:auto;
     position: absolute;
-    left:75px;
     bottom:75px;
   }
 
   #share{
-    right:50px;
     bottom:75px;
     top:auto;
   }
