@@ -96,7 +96,7 @@ body{
   #title-block{
     position: absolute;
     left:50%;
-    top: 306px;
+    top: 250px;
     width: 90%;
     max-width: 420px;
     transform: translate(-50%,-50%);
@@ -127,7 +127,7 @@ body{
     #bottom-line{
       display:inline-block;
       width:calc( 90% - 105px);
-      margin: 40px 20px 0 0px;
+      margin: 30px 20px 0 0px;
     }
 
     #bottom-line-group{
@@ -156,10 +156,12 @@ body{
 
   #info{
     position: absolute;
-    left:10%;
-    top:500px;
+    left:50%;
+    transform: translateX(-50%);
+    top:400px;
+    width: 90%;
+    max-width: 420px;
     bottom:auto;
-    width:90%;
     padding-bottom:20px;
 
     h4{
@@ -205,7 +207,7 @@ body{
 
 
 
-@media (min-width: 750px) {
+@media (min-width: 600px) {
   html{
     font-size: 16px;
   }
@@ -318,7 +320,7 @@ body{
   #info{
     position: absolute;
     left:75px;
-    top:500px;
+    top:525px;
     bottom:auto;
 
     .info-box{
@@ -328,13 +330,14 @@ body{
 
   #share{
     display: block;
+    top:575px;
   }
 }
 
 
 
 
-@media (min-height: 750px) and (min-width: 750px){
+@media (min-height: 600px) and (min-width: 600px){
 
   #title-block{
     position: absolute;
@@ -345,12 +348,37 @@ body{
   #info{
     top:auto;
     position: absolute;
-    bottom:75px;
+    bottom:50px;
+    transform:translate(0,0);
   }
 
   #share{
     bottom:75px;
     top:auto;
   }
+
+}
+
+@media (min-height: 600px) and (max-width: 599px){
+  #title-block{
+    position: absolute;
+    left:50%;
+    top: 45%;
+    width: 90%;
+    max-width: 420px;
+    transform: translate(-50%,-50%);
+  }
+
+  #info{
+    top:auto;
+    position: absolute;
+    bottom:50px;
+    transform:translate(0,0);
+
+    .info-box{
+      width: 200px;
+    }
+  }
+
 
 }
