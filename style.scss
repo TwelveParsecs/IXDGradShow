@@ -76,14 +76,14 @@ body{
   #logo{
     position: absolute;
     left:5%;
-    top:5%;
+    top:50px;
 
     #brandmark{
       width:2.4em;
     }
     #logotype{
       position:relative;
-      top:-6px;
+      top:-1.25em;
       margin-left: 15px;
       display: inline-block;
       font-size: 0.875em;
@@ -254,8 +254,6 @@ body{
     opacity:1;
     -webkit-transition: all 1s; /* Safari */
      transition: all 1s;
-
-
   }
 
   .egg-drop{
@@ -370,10 +368,14 @@ body{
   }
 
   #info{
-    top:auto;
     position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 420px;
+    top:auto;
     bottom:50px;
-    transform:translate(0,0);
+    padding-bottom:20px;
 
     .info-box{
       width: 200px;
