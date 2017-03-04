@@ -237,11 +237,11 @@ ParticleSystem.prototype.run = function() {
 //toggles if snapback is on or off based off mouse clicks
 mouseClicked = function() {
 	// snapback = !snapback;
-	if (attractionMode < 3) {
-		attractionMode++;
-	}else{
-		attractionMode = 0;
-	}
+	// if (attractionMode < 3) {
+	// 	attractionMode++;
+	// }else{
+	// 	attractionMode = 0;
+	// }
 }
 
 
