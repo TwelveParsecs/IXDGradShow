@@ -22,7 +22,6 @@ var icons = [];
 var attractionMode = 0;
 
 function preload(){
-
 	for(var i = 0; i < iconCount; i++){
 		var img = loadImage("assets/icon" + (i+1) + ".svg");
 		icons.push(img);
@@ -43,7 +42,7 @@ function setup() {
 
 function draw() {
 	//change background color, using HSB parameters;
-	background(280, 5, 100);
+	background(360, 0, 100);
 	//centers layout
 	translate(-wAdj, -hAdj);
   	system.run();
