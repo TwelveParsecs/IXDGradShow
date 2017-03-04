@@ -115,11 +115,16 @@
           // Fade out white background
           setTimeout(function() {
             document.getElementById('loader').classList.add("egg-disappear");
+            var w1 = window.innerWidth;
+            var h1 = window.innerHeight;
+            canvas.size(w1,h1);
+            loadSet();
           }, 2500);
 
           // Get rid of the white background
           setTimeout(function() {
             document.getElementById('loader').style.display = "none";
+
           }, 3500);
 
         }
