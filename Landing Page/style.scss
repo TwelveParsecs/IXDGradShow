@@ -1,7 +1,9 @@
+
+
 $pink : #db1a94;
 $grey : #9e9e9e;
 $darkgrey : #424242;
-$sans-serif: 'Roboto', Helvetica, Arial, sans-serif;
+$sans-serif: 'Roboto';
 $slab-serif: 'Roboto Slab', Helvetica, Arial, sans-serif;
 
 
@@ -77,10 +79,11 @@ body{
   #logo{
     position: absolute;
     left:5%;
-    top:50px;
+    top:25px;
 
     #brandmark{
       width:2.4em;
+
     }
     #logotype{
       position:relative;
@@ -97,7 +100,7 @@ body{
   #title-block{
     position: absolute;
     left:50%;
-    top: 250px;
+    top: 225px;
     width: 90%;
     max-width: 420px;
     transform: translate(-50%,-50%);
@@ -122,7 +125,7 @@ body{
     }
 
     #top-line{
-      width:calc( 90% - 160px);
+      width:calc( 90% - 170px);
     }
 
     #bottom-line{
@@ -159,7 +162,7 @@ body{
     position: absolute;
     left:50%;
     transform: translateX(-50%);
-    top:400px;
+    top:375px;
     width: 90%;
     max-width: 420px;
     bottom:auto;
@@ -398,6 +401,11 @@ body{
 }
 
 @media (min-height: 600px) and (max-width: 599px){
+  #logo{
+    top:50px;
+  }
+
+
   #title-block{
     position: absolute;
     left:50%;
