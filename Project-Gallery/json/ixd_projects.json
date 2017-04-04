@@ -1,0 +1,97 @@
+{
+  "projects" : 
+  [
+    {
+      "Timestamp" : "Sun Mar 12 2017 16:38:20 GMT-0400 (EDT)",
+      "name" : "Kaye Mao",
+      "Project" : "Zenith",
+      "Format" : "web app",
+      "Year" : "First Year",
+      "Skills" : 
+      [
+        "branding",
+        "development",
+        "prototyping"
+      ],
+      "Description" : "Description",
+      "Situation" : "Situation",
+      "Problem" : "Problem",
+      "Process" : "Process",
+      "Result" : "Result",
+      "Cover_img" : "http://maozillah.com/img/proj1/lrg_img.jpg",
+      "WIP" : "No",
+      "other_imgs" : 
+      [
+        "http://maozillah.com/img/proj1/h_1.jpg",
+        "http://maozillah.com/img/proj1/h_2.jpg"
+      ],
+      "project_type" : "Individual"
+    },
+    {
+      "Timestamp" : "Sat Mar 18 2017 12:54:04 GMT-0400 (EDT)",
+      "name" : "Samantha Sadasivan",
+      "Project" : "Bevy - Aboriginal Support Group Service",
+      "Format" : 
+      [
+        "Website",
+        "App",
+        "Kit"
+      ],
+      "Year" : "Fourth Year",
+      "Skills" : 
+      [
+        "UX Research",
+        "UX Design",
+        "Service Design"
+      ],
+      "Description" : "Bevy is a service designed for Canadian Aboriginal students to learn about their heritage whilst staying mindful to who they are as an individual. Bevy was designed to promote mental health and Aboriginal culture. ",
+      "Situation" : "Aboriginal students and mental health has become a large issue for Canadas North and there are multiple factors that contribute to this problem.",
+      "Problem" : "How might we support Aboriginal students find their identity and self-esteem",
+      "Process" : 
+      [
+        "I did extensive research with the WeMatter Campaign and Sheridans Indigenous Office. I also did some secondary research Aboriginal gang culture in Manitoba. Majority of my project was aided by research",
+        "because it led me to choosing the mediums and content to creating a service",
+        "rather than a product."
+      ],
+      "Result" : 
+      [
+        "I learnt a lot about my design process",
+        "and what I need to know to make educated decisions. A big part of my journey was focusing granularly on one distinctive problem and not getting lost in a variety of concerns that are embedded in one large problem."
+      ],
+      "Cover_img" : "http://samsadasivan.com/wp-content/uploads/2017/04/Artboard-1@2x.png",
+      "WIP" : "Yes",
+      "other_imgs" : 
+      [
+        "http://samsadasivan.com/wp-content/uploads/2017/03/Artboard-1-copy-4@2x.png",
+        "http://samsadasivan.com/wp-content/uploads/2017/03/Artboard-1-copy-5@2x.png"
+      ],
+      "project_type" : "Individual"
+    },
+    {
+      "Timestamp" : "Sun Mar 12 2017 16:38:20 GMT-0400 (EDT)",
+      "name" : "Kaye Mao",
+      "Project" : "China's Deadly Air",
+      "Format" : "Data Visualization",
+      "Year" : "Second Year",
+      "Skills" : 
+      [
+        "data Visualization",
+        "visual design",
+        "research"
+      ],
+      "Description" : "Description",
+      "Situation" : "Situation",
+      "Problem" : "Problem",
+      "Process" : "Process",
+      "Result" : "Result",
+      "Cover_img" : "http://maozillah.com/img/aqichina/lrg_img.jpg",
+      "WIP" : "No",
+      "other_imgs" : 
+      [
+        "http://maozillah.com/img/proj1/h_1.jpg",
+        "http://maozillah.com/img/proj1/h_2.jpg"
+      ],
+      "project_type" : "Individual"
+    }
+  ]
+}

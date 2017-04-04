@@ -1,0 +1,14 @@
+{{#each questions}}
+
+ 	<h1>{{counter @index}}. {{question}}</h1>
+	{{#each answers}}
+ 	 <label>
+        <input type="{{../quesType}}" name="q1" id="1" value="{{value}}"> {{answer}}
+        <br>
+    </label>
+    {{/each}}
+
+{{/each}}
+
+<hr/>
+<input type="submit" value="Submit">
