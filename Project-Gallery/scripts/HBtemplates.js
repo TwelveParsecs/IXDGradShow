@@ -4,7 +4,7 @@ Handlebars.registerHelper("counter", function (index){
 
 // var jsonData = "https://maozillah.github.io/seniorLearnTech/surveyData.json";
 
-var jsonData = "../json/ixd_projects.json";
+var jsonData = "json/ixd_projects.json";
 
 // asynchronous call
 $.getJSON(jsonData, function(json) {
