@@ -2,9 +2,9 @@ Handlebars.registerHelper("counter", function (index){
     return index + 1;
 });
 
-// var jsonData = "https://maozillah.github.io/seniorLearnTech/surveyData.json";
+var jsonData = "https://twelveparsecs.github.io/IXDGradShow/Project-Gallery/json/ixd_projects.json";
 
-var jsonData = "json/ixd_projects.json";
+// var jsonData = "json/ixd_projects.json";
 
 // asynchronous call
 $.getJSON(jsonData, function(json) {
