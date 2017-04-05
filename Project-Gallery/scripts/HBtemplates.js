@@ -9,13 +9,14 @@ var jsonData = "../json/ixd_projects.json";
 // asynchronous call
 $.getJSON(jsonData, function(json) {
     
-    var template = $('#survey-ques').html();
-
-    var context = json;
-
+    var template = $('#gallery').html();
     var templateScript = Handlebars.compile(template);
-
-    var html = templateScript(context);
-
+    var html = templateScript(json);
     $("#proj-container").append(html);
+
+    // modal content
+    var modal = $('#proj-modal').html();
+    var modalScript = Handlebars.compile(modal);
+    var html2 = modalScript(json);
+    $("#modal").append(html2);
 });

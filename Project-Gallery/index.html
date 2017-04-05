@@ -24,16 +24,50 @@
 
     <div class="container">
 
-        <div id="proj-container" class="m-layout">
+        <div id="proj-container">
         </div>
 
     </div>
 
-    <script id="survey-ques" type="text/x-handlebars-template">
+    <div class="proj-overlay" onclick="closeModal()"></div>
+
+    <div class="modal_wrapper">
+        <div id="modal">
+
+        </div>
+    </div>
+
+    <script id="gallery" type="text/x-handlebars-template">
 
         {{#each projects}}
 
-        <div class="ml-panel">
+        <div class="tile" data-pid="{{projID}}">
+
+            <img src="{{Cover_img}}" class="hvrbox-layer_bottom">
+
+            <div class="overlay">
+
+                <div class="text">
+                    <h1>{{Project}}</h1>
+                    <p>{{name}}</p>
+
+                    <p>{{Description}}</p>
+
+                    {{#each Skills}} #{{this}} {{/each}}
+                </div>
+            </div>
+
+        </div>
+
+        {{/each}}
+
+    </script>
+
+    <script id="proj-modal" type="text/x-handlebars-template">
+
+        {{#each projects}}
+
+        <div id="{{projID}}">
 
             <img src="{{Cover_img}}" class="hvrbox-layer_bottom">
 
@@ -57,7 +91,7 @@
 
     <script src="scripts/libraries/jquery.min.js"></script>
     <script src="scripts/HBtemplates.js"></script>
-    <!-- <script src="scripts/functionality.js"></script> -->
+    <script src="scripts/functionality.js"></script>
 </body>
 
 </html>

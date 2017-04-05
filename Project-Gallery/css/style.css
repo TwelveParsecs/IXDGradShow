@@ -14,16 +14,21 @@ body {
   max-width: 960px;
 }
 
-/* line 22, style.scss */
-.m-layout {
+/* line 23, style.scss */
+#proj-container {
   column-count: 3;
   -webkit-column-count: 3;
   column-gap: 20px;
   -webkit-column-gap: 20px;
 }
 
-/* line 29, style.scss */
-.ml-panel {
+/* line 30, style.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 34, style.scss */
+.tile {
   break-inside: avoid;
   -webkit-column-break-inside: avoid;
   margin-bottom: 20px;
@@ -33,14 +38,8 @@ body {
   max-width: 100%;
   height: auto;
 }
-/* line 38, style.scss */
-.ml-panel img {
-  max-width: 100%;
-  border-bottom: solid 1px #808080;
-  display: block;
-}
 /* line 43, style.scss */
-.ml-panel .overlay {
+.tile .overlay {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -56,14 +55,50 @@ body {
   -ms-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
 }
-/* line 59, style.scss */
-.ml-panel .overlay:hover, .ml-panel .overlay:active {
+/* line 58, style.scss */
+.tile .overlay:hover, .tile .overlay:active {
   opacity: 1;
 }
-/* line 63, style.scss */
-.ml-panel .overlay .text {
+/* line 62, style.scss */
+.tile .overlay .text {
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 20px;
+}
+
+/* line 76, style.scss */
+.proj-overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+/* line 86, style.scss */
+.modal_wrapper {
+  display: none;
+  position: fixed;
+  width: 960px;
+  height: 90%;
+  top: 0;
+  left: 0;
+  padding: calc(5vh) calc(25vw);
+  pointer-events: none;
+}
+
+/* line 97, style.scss */
+#modal {
+  background-color: #fafafa;
+  height: calc(90vh - 50px);
+  padding: 50px 50px 0 50px;
+  overflow: auto;
+  pointer-events: auto;
+}
+/* line 104, style.scss */
+#modal > div {
+  display: none;
 }
