@@ -8,7 +8,6 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css">
-    <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -63,23 +62,45 @@
 
     </script>
 
+    <!-- project details in modal -->
     <script id="proj-modal" type="text/x-handlebars-template">
 
         {{#each projects}}
 
         <div id="{{projID}}">
 
-            <img src="{{Cover_img}}" class="hvrbox-layer_bottom">
+            <img src="{{Cover_img}}" class="cover-img">
 
-            <div class="overlay">
+            <div class="info">
 
-                <div class="text">
+                <div class="student">
+                    <h3>{{name}}</h3>
+                    <p>
+                        {{#each Skills}} #{{this}} {{/each}}</p>
+
+                    <a href="">portfolio</a>
+                </div>
+
+                <div class="p-details">
+                    {{format}}
                     <h1>{{Project}}</h1>
-                    <p>{{name}}</p>
 
                     <p>{{Description}}</p>
 
-                    {{#each Skills}} #{{this}} {{/each}}
+                    <h2>Situation</h2> {{Situation}}
+
+                    <h2>Problem</h2> {{Situation}}
+
+                    <h2>Process</h2> {{Process}}
+
+                    <h2>Result</h2> {{Result}}
+
+                     {{#each other_imgs}} 
+
+                     <img src="{{this}} " alt="">
+
+                     {{/each}}
+
                 </div>
             </div>
 

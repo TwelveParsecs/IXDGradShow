@@ -23,7 +23,7 @@ body {
 #proj-container {
     column-count: 3;
     -webkit-column-count: 3;
-    column-gap: 20px;
+    column-gap: 10px;
     -webkit-column-gap: 20px;
 }
 
@@ -90,6 +90,7 @@ $color_bunker_approx: #121212;
     height: 90%;
     top: 0;
     left: 0;
+    // TO DO: AHMED TO FIX
     padding: calc(5vh) calc(25vw);
     pointer-events: none;
 }
@@ -97,9 +98,26 @@ $color_bunker_approx: #121212;
 #modal {
     background-color: $alabaster;
     height: calc(90vh - 50px);
-    padding: 50px 50px 0 50px;
+    // padding: 50px 50px 0 50px;
     overflow: auto;
     pointer-events: auto;
+
+    .cover-img {
+      width: 100%;
+      height: 400px;
+    }
+
+    .student {
+      float: left;
+      width: 30%;
+      padding: 20px 0 0 30px;
+    }
+
+    .p-details {
+      float: right;
+      width: 60%;
+      padding: 20px;
+    }
 
     > div {
       display:none;

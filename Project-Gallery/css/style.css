@@ -18,7 +18,7 @@ body {
 #proj-container {
   column-count: 3;
   -webkit-column-count: 3;
-  column-gap: 20px;
+  column-gap: 10px;
   -webkit-column-gap: 20px;
 }
 
@@ -90,15 +90,31 @@ img {
   pointer-events: none;
 }
 
-/* line 97, style.scss */
+/* line 98, style.scss */
 #modal {
   background-color: #fafafa;
   height: calc(90vh - 50px);
-  padding: 50px 50px 0 50px;
   overflow: auto;
   pointer-events: auto;
 }
-/* line 104, style.scss */
+/* line 105, style.scss */
+#modal .cover-img {
+  width: 100%;
+  height: 400px;
+}
+/* line 110, style.scss */
+#modal .student {
+  float: left;
+  width: 30%;
+  padding: 20px 0 0 30px;
+}
+/* line 116, style.scss */
+#modal .p-details {
+  float: right;
+  width: 60%;
+  padding: 20px;
+}
+/* line 122, style.scss */
 #modal > div {
   display: none;
 }
