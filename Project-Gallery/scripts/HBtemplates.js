@@ -17,5 +17,5 @@ $.getJSON(jsonData, function(json) {
 
     var html = templateScript(context);
 
-    $("#ixd-projects").append(html);
+    $("#proj-container").append(html);
 });

@@ -92,6 +92,58 @@
         "http://maozillah.com/img/proj1/h_2.jpg"
       ],
       "project_type" : "Individual"
+    },
+     {
+      "Timestamp" : "Sun Mar 12 2017 16:38:20 GMT-0400 (EDT)",
+      "name" : "Kaye Mao",
+      "Project" : "China's Deadly Air",
+      "Format" : "Data Visualization",
+      "Year" : "Second Year",
+      "Skills" : 
+      [
+        "data Visualization",
+        "visual design",
+        "research"
+      ],
+      "Description" : "Description",
+      "Situation" : "Situation",
+      "Problem" : "Problem",
+      "Process" : "Process",
+      "Result" : "Result",
+      "Cover_img" : "http://maozillah.com/img/aqichina/lrg_img.jpg",
+      "WIP" : "No",
+      "other_imgs" : 
+      [
+        "http://maozillah.com/img/proj1/h_1.jpg",
+        "http://maozillah.com/img/proj1/h_2.jpg"
+      ],
+      "project_type" : "Individual"
+    },
+     {
+      "Timestamp" : "Sun Mar 12 2017 16:38:20 GMT-0400 (EDT)",
+      "name" : "Kaye Mao",
+      "Project" : "China's Deadly Air",
+      "Format" : "Data Visualization",
+      "Year" : "Second Year",
+      "Skills" : 
+      [
+        "data Visualization",
+        "visual design",
+        "research"
+      ],
+      "Description" : "Description",
+      "Situation" : "Situation",
+      "Problem" : "Problem",
+      "Process" : "Process",
+      "Result" : "Result",
+      "Cover_img" : "http://maozillah.com/img/aqichina/lrg_img.jpg",
+      "WIP" : "No",
+      "other_imgs" : 
+      [
+        "http://maozillah.com/img/proj1/h_1.jpg",
+        "http://maozillah.com/img/proj1/h_2.jpg"
+      ],
+      "project_type" : "Individual"
     }
   ]
 }

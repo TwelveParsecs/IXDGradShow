@@ -4,8 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>IXD 2017</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="libraries/handlebars-v4.0.5.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script src="scripts/libraries/handlebars-v4.0.5.js"></script>
 
     <!-- optimize handlebars later -->
     <!-- <script src="libraries/handlebars.runtime-v4.0.5.js"></script> -->
@@ -15,34 +22,42 @@
 
 <body>
 
-    <div id="ixd-projects">
+    <div class="container">
+
+        <div id="proj-container" class="m-layout">
+        </div>
+
     </div>
 
     <script id="survey-ques" type="text/x-handlebars-template">
 
-
         {{#each projects}}
 
-            <div class="project">
+        <div class="ml-panel">
 
-        <img src="{{Cover_img}}" alt="" width="200px">
-        <h1>{{Project}}</h1>
-        <p>{{name}}</p>
+            <img src="{{Cover_img}}" class="hvrbox-layer_bottom">
 
-        <p>{{Description}}</p>
+            <div class="overlay">
 
-        {{#each Skills}} 
-            #{{this}} 
-        {{/each}} 
+                <div class="text">
+                    <h1>{{Project}}</h1>
+                    <p>{{name}}</p>
 
+                    <p>{{Description}}</p>
+
+                    {{#each Skills}} #{{this}} {{/each}}
+                </div>
             </div>
+
+        </div>
 
         {{/each}}
 
-
     </script>
 
+    <script src="scripts/libraries/jquery.min.js"></script>
     <script src="scripts/HBtemplates.js"></script>
+    <!-- <script src="scripts/functionality.js"></script> -->
 </body>
 
 </html>
