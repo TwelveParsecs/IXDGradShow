@@ -74,32 +74,38 @@
             <div class="info">
 
                 <div class="student">
+                    <img src="http://placehold.it/150x150" class="round" alt="">
                     <h3>{{name}}</h3>
-                    <p>
-                        {{#each Skills}} #{{this}} {{/each}}</p>
 
-                    <a href="">portfolio</a>
+                    <p class="format">Interests, interests, interests</p>
+                    Biography
+
+                    <p><a href="">Portfolio →</a></p>
                 </div>
 
                 <div class="p-details">
-                    {{format}}
+                    <p class="format">{{Format}}</p>
+
                     <h1>{{Project}}</h1>
+                    <p class="format">{{#each Skills}} #{{this}} {{/each}}</p>
 
                     <p>{{Description}}</p>
 
-                    <h2>Situation</h2> {{Situation}}
+                    {{#each other_imgs}}
 
-                    <h2>Problem</h2> {{Situation}}
+                    <img src="{{this}} " alt=""> {{/each}}
 
-                    <h2>Process</h2> {{Process}}
+                    <h2>Situation</h2>
+                    <p>{{Situation}}</p>
 
-                    <h2>Result</h2> {{Result}}
+                    <h2>Problem</h2>
+                    <p>{{Problem}}</p>
 
-                     {{#each other_imgs}} 
+                    <h2>Process</h2>
+                    <p>{{Process}}</p>
 
-                     <img src="{{this}} " alt="">
-
-                     {{/each}}
+                    <h2>Result</h2>
+                    <p>{{Result}}</p>
 
                 </div>
             </div>

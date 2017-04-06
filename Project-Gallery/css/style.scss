@@ -96,31 +96,76 @@ $color_bunker_approx: #121212;
 }
 
 #modal {
-    background-color: $alabaster;
+    background-color: white;
     height: calc(90vh - 50px);
     // padding: 50px 50px 0 50px;
     overflow: auto;
     pointer-events: auto;
-
     .cover-img {
-      width: 100%;
-      height: 400px;
+        width: 100%;
+        height: 400px;
     }
-
     .student {
-      float: left;
-      width: 30%;
-      padding: 20px 0 0 30px;
+        float: left;
+        width: 30%;
+        padding: 20px 0 0 30px;
     }
-
     .p-details {
-      float: right;
-      width: 60%;
-      padding: 20px;
+        float: right;
+        width: 60%;
+        padding: 20px;
     }
-
     > div {
-      display:none;
+        display: none;
+    }
+    .format {
+        text-transform: capitalize;
+        color: $grey;
+        margin: 0 0 10px 0;
+        font-family: $slab-serif;
+    }
+    .round {
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+    }
+    h1,
+    h2,
+    h3 {
+        color: $darkgrey;
+    }
+    h1 {
+        font-size: 3.5em;
+        margin: 0 0 15px 0;
+    }
+    h2 {
+        font-size: 1.5em;
+        margin: 0 0 10px 0;
+    }
+    h3 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    p {
+        margin: 0 0 35px 0;
+        line-height: 1.75;
+    }
+    a {
+        color: $pink;
+        text-decoration: none;
+        font-family: $slab-serif;
+        -moz-transition: all 0.4s ease-in-out 0s;
+        -webkit-transition: all 0.4s ease-in-out 0s;
+        -ms-transition: all 0.4s ease-in-out 0s;
+        transition: all 0.4s ease-in-out 0s;
+        &:hover {
+            background-color: $pink;
+            color: white;
+        }
+    }
+    img:last-of-type {
+      padding-bottom: 40px;
     }
 }
 

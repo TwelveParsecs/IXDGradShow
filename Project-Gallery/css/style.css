@@ -92,29 +92,88 @@ img {
 
 /* line 98, style.scss */
 #modal {
-  background-color: #fafafa;
+  background-color: white;
   height: calc(90vh - 50px);
   overflow: auto;
   pointer-events: auto;
 }
-/* line 105, style.scss */
+/* line 104, style.scss */
 #modal .cover-img {
   width: 100%;
   height: 400px;
 }
-/* line 110, style.scss */
+/* line 108, style.scss */
 #modal .student {
   float: left;
   width: 30%;
   padding: 20px 0 0 30px;
 }
-/* line 116, style.scss */
+/* line 113, style.scss */
 #modal .p-details {
   float: right;
   width: 60%;
   padding: 20px;
 }
-/* line 122, style.scss */
+/* line 118, style.scss */
 #modal > div {
   display: none;
+}
+/* line 121, style.scss */
+#modal .format {
+  text-transform: capitalize;
+  color: #9e9e9e;
+  margin: 0 0 10px 0;
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+}
+/* line 127, style.scss */
+#modal .round {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 133, style.scss */
+#modal h1,
+#modal h2,
+#modal h3 {
+  color: #424242;
+}
+/* line 138, style.scss */
+#modal h1 {
+  font-size: 3.5em;
+  margin: 0 0 15px 0;
+}
+/* line 142, style.scss */
+#modal h2 {
+  font-size: 1.5em;
+  margin: 0 0 10px 0;
+}
+/* line 146, style.scss */
+#modal h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/* line 150, style.scss */
+#modal p {
+  margin: 0 0 35px 0;
+  line-height: 1.75;
+}
+/* line 154, style.scss */
+#modal a {
+  color: #db1a94;
+  text-decoration: none;
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+/* line 162, style.scss */
+#modal a:hover {
+  background-color: #db1a94;
+  color: white;
+}
+/* line 167, style.scss */
+#modal img:last-of-type {
+  padding-bottom: 40px;
 }
