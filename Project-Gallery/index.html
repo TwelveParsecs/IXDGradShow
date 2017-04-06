@@ -40,7 +40,7 @@
                 <div id="where" class="info-box">
                     <h4>SapientRazorfish</h4>
                     <div class="details">
-                         134 Peter Street, 12th Floor
+                        134 Peter Street, 12th Floor
                         <br /> Toronto, ON
                         <br><a href="https://www.google.ca/maps/dir//SapientNitro+Toronto,+134+Peter+Street,+12th+floor,+Toronto,+ON+M5V+2H2/@43.6485701,-79.3961789,17z/data=!4m15!1m6!3m5!1s0x882b34dbbcba590f:0x733e4bfe21a0ee06!2sSapientNitro+Toronto!8m2!3d43.6485662!4d-79.3939902!4m7!1m0!1m5!1m1!1s0x882b34dbbcba590f:0x733e4bfe21a0ee06!2m2!1d-79.3939902!2d43.6485662" target="_blank">Get Directions →</a>
                     </div>
@@ -126,9 +126,11 @@
 
                     <p>{{Description}}</p>
 
-                    {{#each other_imgs}}
+                    <div class="other-imgs">
+                        {{#each other_imgs}}
 
-                    <img src="{{this}} " alt=""> {{/each}}
+                        <img src="{{this}} " alt=""> {{/each}}
+                    </div>
 
                     <h2>Situation</h2>
                     <p>{{Situation}}</p>

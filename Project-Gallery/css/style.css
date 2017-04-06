@@ -192,7 +192,7 @@ a:hover {
   line-height: 1.75;
 }
 /* line 182, style.scss */
-#modal img:last-of-type {
+#modal .other-imgs {
   padding-bottom: 40px;
 }
 
