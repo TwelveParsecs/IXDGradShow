@@ -23,6 +23,40 @@
 
     <div class="container">
 
+        <div id="show-details">
+            <div id="logo">
+                <img src="images/ixd2017-logo.png" alt="">
+            </div>
+
+            <div id="info">
+                <div id="when" class="info-box">
+                    <h4>Wednesday, April 19</h4>
+                    <div class="details">
+                        6:00pm - 9:30pm
+
+                    </div>
+                </div>
+
+                <div id="where" class="info-box">
+                    <h4>SapientRazorfish</h4>
+                    <div class="details">
+                         134 Peter Street, 12th Floor
+                        <br /> Toronto, ON
+                        <br><a href="https://www.google.ca/maps/dir//SapientNitro+Toronto,+134+Peter+Street,+12th+floor,+Toronto,+ON+M5V+2H2/@43.6485701,-79.3961789,17z/data=!4m15!1m6!3m5!1s0x882b34dbbcba590f:0x733e4bfe21a0ee06!2sSapientNitro+Toronto!8m2!3d43.6485662!4d-79.3939902!4m7!1m0!1m5!1m1!1s0x882b34dbbcba590f:0x733e4bfe21a0ee06!2m2!1d-79.3939902!2d43.6485662" target="_blank">Get Directions →</a>
+                    </div>
+
+                </div>
+
+                <div id="social">
+                    <a href="https://www.facebook.com/sheridanIXDshow"><img src="images/facebook-logo.svg" class="social-icon" /></a>
+                    <a href="https://twitter.com/sheridanIXDshow"><img src="images/twitter-logo.svg" class="social-icon" /></a>
+                    <a href="https://www.instagram.com/ixd2017/"> <img src="images/instagram-logo.svg" class="social-icon" /></a>
+                </div>
+
+            </div>
+
+        </div>
+
         <div id="proj-container">
         </div>
 
@@ -52,7 +86,8 @@
 
                     <p>{{Description}}</p>
 
-                    {{#each Skills}} #{{this}} {{/each}}
+                    <p class="tags">
+                        {{#each Skills}} #{{this}} {{/each}}</p>
                 </div>
             </div>
 

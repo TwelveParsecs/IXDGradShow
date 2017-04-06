@@ -28,6 +28,22 @@ img {
 }
 
 /* line 34, style.scss */
+a {
+  color: #db1a94;
+  text-decoration: none;
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+/* line 42, style.scss */
+a:hover {
+  background-color: #db1a94;
+  color: white;
+}
+
+/* line 48, style.scss */
 .tile {
   break-inside: avoid;
   -webkit-column-break-inside: avoid;
@@ -38,7 +54,24 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* line 43, style.scss */
+/* line 57, style.scss */
+.tile h1 {
+  font-size: 1.5em;
+  margin: 0 0 5px 0;
+  text-transform: capitalize;
+}
+/* line 62, style.scss */
+.tile p {
+  margin: 0 0 20px 0;
+}
+/* line 65, style.scss */
+.tile .tags {
+  color: #db1a94;
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+/* line 71, style.scss */
 .tile .overlay {
   opacity: 0;
   position: absolute;
@@ -55,11 +88,11 @@ img {
   -ms-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
 }
-/* line 58, style.scss */
+/* line 86, style.scss */
 .tile .overlay:hover, .tile .overlay:active {
   opacity: 1;
 }
-/* line 62, style.scss */
+/* line 90, style.scss */
 .tile .overlay .text {
   position: absolute;
   bottom: 0;
@@ -67,7 +100,7 @@ img {
   padding: 20px;
 }
 
-/* line 76, style.scss */
+/* line 104, style.scss */
 .proj-overlay {
   display: none;
   position: fixed;
@@ -78,7 +111,7 @@ img {
   background-color: rgba(0, 0, 0, 0.85);
 }
 
-/* line 86, style.scss */
+/* line 114, style.scss */
 .modal_wrapper {
   display: none;
   position: fixed;
@@ -90,90 +123,148 @@ img {
   pointer-events: none;
 }
 
-/* line 98, style.scss */
+/* line 126, style.scss */
 #modal {
   background-color: white;
   height: calc(90vh - 50px);
   overflow: auto;
   pointer-events: auto;
 }
-/* line 104, style.scss */
+/* line 132, style.scss */
 #modal .cover-img {
   width: 100%;
   height: 400px;
 }
-/* line 108, style.scss */
+/* line 136, style.scss */
 #modal .student {
   float: left;
   width: 30%;
   padding: 20px 0 0 30px;
 }
-/* line 113, style.scss */
+/* line 141, style.scss */
 #modal .p-details {
   float: right;
   width: 60%;
   padding: 20px;
 }
-/* line 118, style.scss */
+/* line 146, style.scss */
 #modal > div {
   display: none;
 }
-/* line 121, style.scss */
+/* line 149, style.scss */
 #modal .format {
   text-transform: capitalize;
   color: #9e9e9e;
   margin: 0 0 10px 0;
   font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
 }
-/* line 127, style.scss */
+/* line 155, style.scss */
 #modal .round {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 133, style.scss */
+/* line 161, style.scss */
 #modal h1,
 #modal h2,
 #modal h3 {
   color: #424242;
 }
-/* line 138, style.scss */
+/* line 166, style.scss */
 #modal h1 {
   font-size: 3.5em;
   margin: 0 0 15px 0;
 }
-/* line 142, style.scss */
+/* line 170, style.scss */
 #modal h2 {
   font-size: 1.5em;
   margin: 0 0 10px 0;
 }
-/* line 146, style.scss */
+/* line 174, style.scss */
 #modal h3 {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-/* line 150, style.scss */
+/* line 178, style.scss */
 #modal p {
   margin: 0 0 35px 0;
   line-height: 1.75;
 }
-/* line 154, style.scss */
-#modal a {
-  color: #db1a94;
-  text-decoration: none;
-  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -ms-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
-}
-/* line 162, style.scss */
-#modal a:hover {
-  background-color: #db1a94;
-  color: white;
-}
-/* line 167, style.scss */
+/* line 182, style.scss */
 #modal img:last-of-type {
   padding-bottom: 40px;
+}
+
+/* line 303, style.scss */
+#show-details:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 309, style.scss */
+#logo {
+  float: left;
+  width: 60%;
+}
+/* line 313, style.scss */
+#logo img {
+  height: 500px;
+  padding: 70px 0 120px 0;
+}
+
+/* line 320, style.scss */
+#social {
+  margin-top: 50px;
+}
+/* line 322, style.scss */
+#social a {
+  background-color: transparent;
+}
+
+/* line 327, style.scss */
+.social-icon {
+  width: 30px;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+/* line 333, style.scss */
+#info {
+  float: right;
+  width: 30%;
+  max-width: 420px;
+  bottom: auto;
+  padding-bottom: 20px;
+  transform: translateY(50%);
+}
+/* line 340, style.scss */
+#info h4 {
+  color: #424242;
+  font-size: 1em;
+  margin: 40px 0 5px 0;
+}
+/* line 345, style.scss */
+#info .details {
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 1.5em;
+  color: #424242;
+}
+
+/* line 354, style.scss */
+#share {
+  display: none;
+  width: 12em;
+  text-align: center;
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.875em;
+  color: #db1a94;
+  border-width: 1px;
+  border-style: solid;
+  padding: 15px;
+  border-color: #db1a94;
 }
