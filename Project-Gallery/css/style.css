@@ -1,33 +1,39 @@
-/* line 9, style.scss */
+/* line 19, style.scss */
 html {
   font-size: 16px;
 }
 
-/* line 13, style.scss */
+/* line 23, style.scss */
 body {
   font-family: "Roboto";
 }
 
-/* line 17, style.scss */
+/* line 27, style.scss */
 .container {
   margin: 0 auto 0 auto;
   max-width: 960px;
 }
 
-/* line 23, style.scss */
+/* line 33, style.scss */
 #proj-container {
   column-count: 3;
   -webkit-column-count: 3;
   column-gap: 10px;
   -webkit-column-gap: 20px;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 33, style.scss */
+  #proj-container {
+    display: none;
+  }
+}
 
-/* line 30, style.scss */
+/* line 43, style.scss */
 img {
   max-width: 100%;
 }
 
-/* line 34, style.scss */
+/* line 47, style.scss */
 a {
   color: #db1a94;
   text-decoration: none;
@@ -37,13 +43,13 @@ a {
   -ms-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
 }
-/* line 42, style.scss */
+/* line 55, style.scss */
 a:hover {
   background-color: #db1a94;
   color: white;
 }
 
-/* line 48, style.scss */
+/* line 61, style.scss */
 .tile {
   break-inside: avoid;
   -webkit-column-break-inside: avoid;
@@ -54,24 +60,24 @@ a:hover {
   max-width: 100%;
   height: auto;
 }
-/* line 57, style.scss */
+/* line 70, style.scss */
 .tile h1 {
   font-size: 1.5em;
   margin: 0 0 5px 0;
   text-transform: capitalize;
 }
-/* line 62, style.scss */
+/* line 75, style.scss */
 .tile p {
   margin: 0 0 20px 0;
 }
-/* line 65, style.scss */
+/* line 78, style.scss */
 .tile .tags {
   color: #db1a94;
   font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   text-transform: capitalize;
 }
-/* line 71, style.scss */
+/* line 84, style.scss */
 .tile .overlay {
   opacity: 0;
   position: absolute;
@@ -88,11 +94,11 @@ a:hover {
   -ms-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
 }
-/* line 86, style.scss */
+/* line 99, style.scss */
 .tile .overlay:hover, .tile .overlay:active {
   opacity: 1;
 }
-/* line 90, style.scss */
+/* line 103, style.scss */
 .tile .overlay .text {
   position: absolute;
   bottom: 0;
@@ -100,7 +106,7 @@ a:hover {
   padding: 20px;
 }
 
-/* line 104, style.scss */
+/* line 117, style.scss */
 .proj-overlay {
   display: none;
   position: fixed;
@@ -111,7 +117,7 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.85);
 }
 
-/* line 114, style.scss */
+/* line 127, style.scss */
 .modal_wrapper {
   display: none;
   position: fixed;
@@ -123,114 +129,140 @@ a:hover {
   pointer-events: none;
 }
 
-/* line 126, style.scss */
+/* line 139, style.scss */
 #modal {
   background-color: white;
   height: calc(90vh - 50px);
   overflow: auto;
   pointer-events: auto;
 }
-/* line 132, style.scss */
+/* line 145, style.scss */
 #modal .cover-img {
   width: 100%;
   height: 400px;
 }
-/* line 136, style.scss */
+/* line 149, style.scss */
 #modal .student {
   float: left;
   width: 30%;
   padding: 20px 0 0 30px;
 }
-/* line 141, style.scss */
+/* line 154, style.scss */
 #modal .p-details {
   float: right;
   width: 60%;
   padding: 20px;
 }
-/* line 146, style.scss */
+/* line 159, style.scss */
 #modal > div {
   display: none;
 }
-/* line 149, style.scss */
+/* line 162, style.scss */
 #modal .format {
   text-transform: capitalize;
   color: #9e9e9e;
   margin: 0 0 10px 0;
   font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
 }
-/* line 155, style.scss */
+/* line 168, style.scss */
 #modal .round {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 161, style.scss */
+/* line 174, style.scss */
 #modal h1,
 #modal h2,
 #modal h3 {
   color: #424242;
 }
-/* line 166, style.scss */
+/* line 179, style.scss */
 #modal h1 {
   font-size: 3.5em;
   margin: 0 0 15px 0;
 }
-/* line 170, style.scss */
+/* line 183, style.scss */
 #modal h2 {
   font-size: 1.5em;
   margin: 0 0 10px 0;
 }
-/* line 174, style.scss */
+/* line 187, style.scss */
 #modal h3 {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-/* line 178, style.scss */
+/* line 191, style.scss */
 #modal p {
   margin: 0 0 35px 0;
   line-height: 1.75;
 }
-/* line 182, style.scss */
+/* line 195, style.scss */
 #modal .other-imgs {
   padding-bottom: 40px;
 }
 
-/* line 303, style.scss */
+/* line 316, style.scss */
 #show-details:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 309, style.scss */
+/* line 322, style.scss */
 #logo {
   float: left;
   width: 60%;
 }
-/* line 313, style.scss */
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 322, style.scss */
+  #logo {
+    float: none;
+    width: 80%;
+    margin: 0 auto 0 auto;
+  }
+}
+/* line 330, style.scss */
 #logo img {
-  height: 500px;
+  max-height: 500px;
   padding: 70px 0 120px 0;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 330, style.scss */
+  #logo img {
+    padding: 70px 0 50px 0;
+  }
+}
 
-/* line 320, style.scss */
+/* line 339, style.scss */
 #social {
   margin-top: 50px;
 }
-/* line 322, style.scss */
+/* line 341, style.scss */
 #social a {
   background-color: transparent;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 339, style.scss */
+  #social {
+    text-align: center;
+  }
+}
 
-/* line 327, style.scss */
+/* line 349, style.scss */
 .social-icon {
   width: 30px;
   display: inline-block;
   padding-right: 20px;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 349, style.scss */
+  .social-icon {
+    width: 40px;
+  }
+}
 
-/* line 333, style.scss */
+/* line 358, style.scss */
 #info {
   float: right;
   width: 30%;
@@ -239,13 +271,32 @@ a:hover {
   padding-bottom: 20px;
   transform: translateY(50%);
 }
-/* line 340, style.scss */
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 358, style.scss */
+  #info {
+    display: table;
+    margin: 0 auto;
+    float: none;
+    width: auto;
+    bottom: auto;
+    padding-bottom: 40px;
+    transform: none;
+  }
+}
+/* line 374, style.scss */
 #info h4 {
   color: #424242;
   font-size: 1em;
   margin: 40px 0 5px 0;
+  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
 }
-/* line 345, style.scss */
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 374, style.scss */
+  #info h4 {
+    font-size: 1.2em;
+  }
+}
+/* line 383, style.scss */
 #info .details {
   font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -253,8 +304,15 @@ a:hover {
   line-height: 1.5em;
   color: #424242;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 383, style.scss */
+  #info .details {
+    font-size: 1.2em;
+    line-height: 1.6em;
+  }
+}
 
-/* line 354, style.scss */
+/* line 396, style.scss */
 #share {
   display: none;
   width: 12em;
