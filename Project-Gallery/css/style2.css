@@ -28,7 +28,7 @@ body {
 	height: 90%;
 	top: 0;
 	left: 0;
-	padding: calc(5vh) calc(5vw);
+	padding: calc(5vh) calc((100vw - 960px)/2);
 	pointer-events: none;
 }
 
@@ -38,7 +38,7 @@ body {
 	padding: 50px 50px 0 50px;
 	overflow: auto;
 	pointer-events: auto;
-}	
+}
 
 .content {
 	display: inline-block;

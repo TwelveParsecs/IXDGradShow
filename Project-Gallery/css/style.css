@@ -125,7 +125,7 @@ a:hover {
   height: 90%;
   top: 0;
   left: 0;
-  padding: calc(5vh) calc(25vw);
+  padding: calc(5vh) calc((100vw - 960px)/2);
   pointer-events: none;
 }
 

@@ -9,7 +9,7 @@ var jsonData = "https://twelveparsecs.github.io/IXDGradShow/Project-Gallery/json
 
 // asynchronous call
 $.getJSON(jsonData, function(json) {
-    
+
     var template = $('#gallery').html();
     var templateScript = Handlebars.compile(template);
     var html = templateScript(json);
@@ -26,7 +26,7 @@ Handlebars.registerHelper("debug", function(optionalValue) {
   console.log("Current Context");
   console.log("====================");
   console.log(this);
- 
+
   if (optionalValue) {
     console.log("Value");
     console.log("====================");
