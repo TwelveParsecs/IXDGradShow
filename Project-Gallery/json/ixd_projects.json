@@ -1,86 +1,54 @@
 {
     "projects": [{
-        "Timestamp": "Sun Mar 12 2017 16:38:20 GMT-0400 (EDT)",
-        "projID": "ABC",
-        "name": "Kaye Mao",
-        "Project": "Zenith",
-        "Format": "web app",
-        "Year": "First Year",
-        "Skills": [
-            "branding",
-            "development",
-            "prototyping"
-        ],
-        "Description": "Description",
-        "Situation": "Situation",
-        "Problem": "Problem",
-        "Process": "Process",
-        "Result": "Result",
-        "Cover_img": "http://maozillah.com/img/proj1/lrg_img.jpg",
-        "WIP": "No",
-        "other_imgs": [
-            "http://maozillah.com/img/proj1/h_1.jpg",
-            "http://maozillah.com/img/proj1/h_2.jpg"
-        ],
-        "project_type": "Individual"
-    }, {
-        "Timestamp": "Sat Mar 18 2017 12:54:04 GMT-0400 (EDT)",
-        "projID": "ABC2",
-        "name": "Samantha Sadasivan",
-        "Project": "Bevy",
-        "Format": [
-            "Website",
-            "App",
-            "Kit"
-        ],
-        "Year": "Fourth Year",
-        "Skills": [
-            "UX Research",
-            "UX Design",
-            "Service Design"
-        ],
-        "Description": "Bevy is a service designed for Canadian Aboriginal students to learn",
-        "Situation": "Aboriginal students and mental health has become a large issue for Canadas North and there are multiple factors that contribute to this problem.",
-        "Problem": "How might we support Aboriginal students find their identity and self-esteem",
-        "Process": [
-            "I did extensive research with the WeMatter Campaign and Sheridans Indigenous Office. I also did some secondary research Aboriginal gang culture in Manitoba. Majority of my project was aided by research",
-            "because it led me to choosing the mediums and content to creating a service",
-            "rather than a product."
-        ],
-        "Result": [
-            "I learnt a lot about my design process",
-            "and what I need to know to make educated decisions. A big part of my journey was focusing granularly on one distinctive problem and not getting lost in a variety of concerns that are embedded in one large problem."
-        ],
-        "Cover_img": "http://samsadasivan.com/wp-content/uploads/2017/04/Artboard-1@2x.png",
-        "WIP": "Yes",
-        "other_imgs": [
-            "http://samsadasivan.com/wp-content/uploads/2017/03/Artboard-1-copy-4@2x.png",
-            "http://samsadasivan.com/wp-content/uploads/2017/03/Artboard-1-copy-5@2x.png"
-        ],
-        "project_type": "Individual"
-    }, {
-        "Timestamp": "Sun Mar 12 2017 16:38:20 GMT-0400 (EDT)",
-        "projID": "ABC3",
-        "name": "Kaye Mao",
-        "Project": "China's Deadly Air",
-        "Format": "Data Visualization",
-        "Year": "Second Year",
-        "Skills": [
-            "data Visualization",
-            "visual design",
-            "research"
-        ],
-        "Description": "Description",
-        "Situation": "Situation",
-        "Problem": "Problem",
-        "Process": "Process",
-        "Result": "Result",
-        "Cover_img": "http://maozillah.com/img/aqichina/lrg_img.jpg",
-        "WIP": "No",
-        "other_imgs": [
-            "http://maozillah.com/img/proj1/h_1.jpg",
-            "http://maozillah.com/img/proj1/h_2.jpg"
-        ],
-        "project_type": "Individual"
+        "projID" : "ju89",
+      "name" : "Deron Li",
+      "Project" : "Eat Me",
+      "Format" : 
+      [
+        "App",
+        "Service"
+      ],
+      "Year" : "Fourth Year",
+      "Skills" : 
+      [
+        "User Research",
+        "User Interface Design",
+        "Prototyping"
+      ],
+      "Description" : "Many times people forget the foods in their fridge having it spoil and leading to food waste. This app reminds individuals when foods are quickly approaching their “best-before” and tracks their food inventory to offer insight into how much money they’ll lose if they don’t eat their foods. ",
+      "Situation" : "Each Year approximately $936 billion worth of food is thrown out contributing to greenhouse gas emissions (GHG). ",
+      "Problem" : " How might we reduce the amount of food thrown out and lower our GHG emissions?\n",
+      "Process" : 
+      [
+        "Many people purchase foods with the intentions of eating it only to mismanage portion sizes or forget what’s in their fridge and having it spoil. I created a concept for an app to monitor the “best-before” dates and remind people about their purchases and to encourage consumption by recommending quick and easy recipes to use that food item. To motivate people to eat their foods",
+        "this app tracks the amount of money a person losses when their food spoils",
+        "offering insight into which foods spoil the most in their household and suggesting potential savings if they change their consumption habits."
+      ],
+      "Result" : 
+      [
+        "Through this experience",
+        "I managed to interview consumers",
+        "food retailers and food rescue services to gain insight into why so much food waste occurs. What I’ve learned is that consumers believe a wide variety of myths about foods in addition to having a very high and unrealistic standard for the aesthetic of their foods. So I decided to create a platform that people would use to help reduce their own food waste in their household",
+        "while at the same time slowly educating and dispelling myths about foods."
+      ],
+        "tagline": "An app that gives everything you need about the festival.",
+        "thumbnail" : "http://phoenix.sheridanc.on.ca/~ixd57/wp-content/uploads/2017/04/300x4001.png",
+      "Cover_img" : "http://phoenix.sheridanc.on.ca/~ixd57/wp-content/uploads/2017/04/300x9601.png",
+       "bio" : 
+      [
+        "I studied science for 4 years and earned my degree from McMaster University. My interests include design",
+        "physical computing",
+        "motion graphics and photography."
+      ],
+      "portfolio_url" : "deronli.com",
+      "student-skills" : 
+      [
+        "UX",
+        "UI",
+        "User Research",
+        "Physical Computing",
+        "Motion Graphics"
+      ],
+      "headshot" : "https://lh6.googleusercontent.com/relqhNNl9zlvnkXqlDGKuH27QbfEOEkCpAgbhIdRt-ekZ-JvOsUH81t9Kd9FrMmgdS7ktutIXlgXz2g=w1922-h952"
     }]
 }

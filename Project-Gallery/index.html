@@ -76,11 +76,13 @@
 
     <script id="gallery" type="text/x-handlebars-template">
 
+    {{debug}}
+
         {{#each projects}}
 
         <div class="tile" data-pid="{{projID}}">
 
-            <img src="{{Cover_img}}" class="hvrbox-layer_bottom">
+            <img src="{{thumbnail}}" class="hvrbox-layer_bottom">
 
             <div class="overlay">
 
@@ -88,7 +90,7 @@
                     <h1>{{Project}}</h1>
                     <p>{{name}}</p>
 
-                    <p>{{Description}}</p>
+                    <p>{{tagline}}</p>
 
                     <p class="tags">
                         {{#each Skills}} #{{this}} {{/each}}</p>
@@ -116,10 +118,10 @@
                     <img src="http://placehold.it/150x150" class="round" alt="">
                     <h3>{{name}}</h3>
 
-                    <p class="format">Interests, interests, interests</p>
-                    Biography
+                    <p class="format">{{student-skills}}</p>
+                    <p>{{bio}}</p>
 
-                    <p><a href="">Portfolio →</a></p>
+                    <p><a href="{{portfolio_url}}">Portfolio →</a></p>
                 </div>
 
                 <div class="p-details">

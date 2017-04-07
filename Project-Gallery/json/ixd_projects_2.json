@@ -1,0 +1,323 @@
+{
+  "projects" : 
+  [
+    {
+      "projID" : "ju89",
+      "name" : "Deron Li",
+      "Project" : "Eat Me",
+      "Format" : 
+      [
+        "App",
+        "Service"
+      ],
+      "Year" : "Fourth Year",
+      "Skills" : 
+      [
+        "User Research",
+        "User Interface Design",
+        "Prototyping"
+      ],
+      "Description" : "Many times people forget the foods in their fridge having it spoil and leading to food waste. This app reminds individuals when foods are quickly approaching their “best-before” and tracks their food inventory to offer insight into how much money they’ll lose if they don’t eat their foods. ",
+      "Situation" : "Each Year approximately $936 billion worth of food is thrown out contributing to greenhouse gas emissions (GHG). ",
+      "Problem" : " How might we reduce the amount of food thrown out and lower our GHG emissions?\n",
+      "Process" : 
+      [
+        "Many people purchase foods with the intentions of eating it only to mismanage portion sizes or forget what’s in their fridge and having it spoil. I created a concept for an app to monitor the “best-before” dates and remind people about their purchases and to encourage consumption by recommending quick and easy recipes to use that food item. To motivate people to eat their foods",
+        "this app tracks the amount of money a person losses when their food spoils",
+        "offering insight into which foods spoil the most in their household and suggesting potential savings if they change their consumption habits."
+      ],
+      "Result" : 
+      [
+        "Through this experience",
+        "I managed to interview consumers",
+        "food retailers and food rescue services to gain insight into why so much food waste occurs. What I’ve learned is that consumers believe a wide variety of myths about foods in addition to having a very high and unrealistic standard for the aesthetic of their foods. So I decided to create a platform that people would use to help reduce their own food waste in their household",
+        "while at the same time slowly educating and dispelling myths about foods."
+      ],
+      "tagline" : "Giving Food A Voice To Reduce Food Waste",
+      "thumbnail" : "http://phoenix.sheridanc.on.ca/~ixd57/wp-content/uploads/2017/04/300x4001.png",
+      "Cover_img" : "http://phoenix.sheridanc.on.ca/~ixd57/wp-content/uploads/2017/04/300x9601.png",
+      "project_type" : "Individual",
+      "bio" : 
+      [
+        "I studied science for 4 years and earned my degree from McMaster University. My interests include design",
+        "physical computing",
+        "motion graphics and photography."
+      ],
+      "portfolio_url" : "deronli.com",
+      "student-skills" : 
+      [
+        "UX",
+        "UI",
+        "User Research",
+        "Physical Computing",
+        "Motion Graphics"
+      ]
+    },
+    {
+      "projID" : "vdni",
+      "name" : "Rebekah Reimer",
+      "Project" : "The Birth of a Star",
+      "Format" : "Motion Graphic",
+      "Year" : "Fourth Year",
+      "Skills" : 
+      [
+        "Research",
+        "Illustration",
+        "Animation"
+      ],
+      "Description" : 
+      [
+        "An educational video about how stars are formed",
+        "told with motion graphics and kinetic typography."
+      ],
+      "Situation" : 
+      [
+        "I found over the years that many aspects of science are poorly explained",
+        "I needed to find a way to show a complex idea in a way that everyone can understand."
+      ],
+      "Problem" : "I needed to take a complex topic and explain it as simply as possible.",
+      "Process" : "First I condensed the topic of how a star is formed. I then created matching illustrations and assets based on that research and animated them to form a cohesive whole and explain my chosen narrative.",
+      "Result" : "This experience taught me a lot about telling a narrative and working with multiple programs. I enjoyed the illustrative and kinetic aspects of this project and hope to be able to further develop my skills and create more educational motion graphics in the future. ",
+      "tagline" : "Learn through graphics",
+      "thumbnail" : "http://i174.photobucket.com/albums/w116/silary/thumbnailStar.png",
+      "Cover_img" : "http://i174.photobucket.com/albums/w116/silary/coverimageStar.png",
+      "other_imgs" : "http://i174.photobucket.com/albums/w116/silary/additional1STAR.png",
+      "project_type" : "Individual",
+      "bio" : 
+      [
+        "Rebekah has spent most of her life fascinated by history and science. She applies her skills by working on projects that reflect her love of these subjects",
+        "and she strives to develop meaningful",
+        "elegant designs and a fluent user experience through her ability to anticipate and execute viable layouts and solutions that meet and surpass the users desires and expectations."
+      ],
+      "portfolio_url" : "rebekahreimer.com",
+      "student-skills" : 
+      [
+        "UX Interface and Design",
+        "Motion graphics"
+      ]
+    },
+    {
+      "projID" : "7vwa",
+      "name" : "Rebekah Reimer",
+      "Project" : "Openbook",
+      "Format" : "App",
+      "Year" : "Fourth Year",
+      "Skills" : 
+      [
+        "Branding",
+        "Development",
+        "Programming"
+      ],
+      "Description" : 
+      [
+        "Openbook is an app for reading graphic novels on the go in a simplified way",
+        "allowing users to discover old and new favorites in a streamlined experience."
+      ],
+      "Situation" : 
+      [
+        "I found through my research that reader apps are often far too bulky",
+        "with many unnecessary features that broke immersion while engaging with a novel."
+      ],
+      "Problem" : "I needed to design an app that would allow a user to interact with and search for new novels in a way that was simple and easy to navigate without unnecessary features.",
+      "Process" : 
+      [
+        "First I needed to understand how and what my target audience thought about reading graphic novels online as part of my research. From there I created paper prototypes",
+        "usability tests",
+        "wire frames and mock ups to develop my app before finally programming."
+      ],
+      "Result" : 
+      [
+        "Overall",
+        "this was a long and involved process that taught me so much regarding development of a brand and how to handle long term projects. I am proud of what I have achieved with this app and hope to be able to develop it further over time."
+      ],
+      "tagline" : "The simple way to find your next favorite.",
+      "thumbnail" : "https://drive.google.com/file/d/0B4hqTtoiY6mkZllSQVFnYmJQbDQ/view?usp=sharing",
+      "Cover_img" : "http://i174.photobucket.com/albums/w116/silary/coverimage.png",
+      "other_imgs" : 
+      [
+        "http://i174.photobucket.com/albums/w116/silary/additional1.png",
+        "http://i174.photobucket.com/albums/w116/silary/additional2.png"
+      ],
+      "project_type" : "Individual",
+      "bio" : 
+      [
+        "Rebekah has spent most of her life fascinated by history and science. She applies her skills by working on projects that reflect her love of these subjects",
+        "and she strives to develop meaningful",
+        "elegant designs and a fluent user experience through her ability to anticipate and execute viable layouts and solutions that meet and surpass the users desires and expectations."
+      ],
+      "portfolio_url" : "rebekahreimer.com",
+      "student-skills" : 
+      [
+        "UX Interface and Design",
+        "Motion graphics"
+      ]
+    },
+    {
+      "projID" : "ux7e",
+      "name" : "Rico Suico",
+      "Project" : "Studio Search",
+      "Format" : 
+      [
+        "App",
+        "Prototype",
+        "Invision"
+      ],
+      "Year" : "Third Year",
+      "Skills" : 
+      [
+        "Interface Design",
+        "User Experience",
+        "Prototyping"
+      ],
+      "Description" : "Studio Search is a navigation app used to find local dance studios around the user or target location. Its goal is to give dancers quick access to local companies while speeding up the transaction process. ",
+      "Situation" : "Many new dancers are often intimidated by joining classes and continually put off the idea of starting. Studio Search provides info on local studios and allows the user to join classes from the app itself.",
+      "Problem" : "Beginner dancers often don't know where to start classes due to having no experience in dance studios.",
+      "Process" : 
+      [
+        "Before starting the project",
+        "informal interviews were conducted with dancers from different backgrounds to gather their experiences on starting. These results were used to decide which features would be present in the app."
+      ],
+      "Result" : "The result was an invision prototype which user testers claimed to be simple and efficient for the issue it's tackling.",
+      "tagline" : "Discover local dance studios quickly sign up for your next class!",
+      "thumbnail" : "http://phoenix.sheridanc.on.ca/~ixd41/wp-content/uploads/2017/04/studio400x300.jpg",
+      "Cover_img" : "http://phoenix.sheridanc.on.ca/~ixd41/wp-content/uploads/2017/04/studio300x960.jpg",
+      "project_type" : "Individual",
+      "bio" : 
+      [
+        "I am a fourth year Interaction Design focusing on user experience and interface design. In the past I have worked as a UX/UI designer for apps on multiple TV platforms across different devices. A lot of my work involves working with narratives and I strive to make my designs clear and accessible for everyone. In my spare time",
+        "you can find me working on DIY projects in areas of art",
+        "fashion",
+        "and dance. I enjoy being crafty and creating interactive experiences whether it is physical or on the screen."
+      ],
+      "portfolio_url" : "ricosuico.com",
+      "student-skills" : 
+      [
+        "UX",
+        "UI Design",
+        "Usability Testing",
+        "Motion Graphics",
+        "HTML/CSS"
+      ]
+    },
+    {
+      "projID" : "bt1x",
+      "name" : "Samantha Redmond",
+      "Project" : "CareCircle",
+      "Format" : "Mobile App",
+      "Year" : "Fourth Year",
+      "Skills" : 
+      [
+        "User Research",
+        "UX Design",
+        "UI Design"
+      ],
+      "Description" : 
+      [
+        "The application helps initiate and create conversations to give adults with developmental disabilities",
+        "specifically those with Down Syndrome",
+        "the opportunity to continue conversations with each other when they are not together."
+      ],
+      "Situation" : "People with developmental disabilities struggle with communication barriers and therefore have trouble making lasting friendships and feeling included within society. ",
+      "Problem" : "How might we encourage adults with Down Syndrome to create lasting friendships?",
+      "Process" : 
+      [
+        "After spending the day together the user can log into the application and chose a prompt of something to talk about",
+        "select whether or not they want to talk or call with a friend",
+        "and then can select the friend they would like to talk to. The application uses information from each user’s profile and combines them to help generate topics to talk about."
+      ],
+      "Result" : 
+      [
+        "Everybody",
+        "including those with disabilities deserve to have the same opportunities. Focusing my research on accessibility allowed me to design from multiple perspectives",
+        "therefore improving the experience and allowing inclusivity within my application."
+      ],
+      "tagline" : "Giving adults with Down Syndrome the opportunity to create lasting friendships. ",
+      "thumbnail" : "http://phoenix.sheridanc.on.ca/~ixd17/wp-content/uploads/2017/04/thumbnail-samantha-redmond.png",
+      "Cover_img" : "http://phoenix.sheridanc.on.ca/~ixd17/wp-content/uploads/2017/04/cover-img-samantha-redmond1.png",
+      "project_type" : "Individual",
+      "bio" : 
+      [
+        "I like design because of the ability to make a difference",
+        "which inspired my interest in inclusive design and accessibility. Design is about how you approach each task. My philosophy is to design with clarity",
+        "efficiency",
+        "and consistency. Focusing on the process",
+        "accepting challenges",
+        "and collaborating."
+      ],
+      "portfolio_url" : "http://samantharedmond.com/",
+      "student-skills" : 
+      [
+        "UX Design",
+        "Usability Testing"
+      ]
+    },
+    {
+      "projID" : "iyvf",
+      "name" : "Taryn Short",
+      "Project" : "Intermission",
+      "Format" : "App",
+      "Year" : "Fourth Year",
+      "Skills" : 
+      [
+        "Branding",
+        "development",
+        "prototyping"
+      ],
+      "Description" : 
+      [
+        "Intermission is an app that works to find a balance between work and \npersonal tasks",
+        "and calculate breaks that enrich a young professional’s life",
+        "rather than impede it."
+      ],
+      "Situation" : 
+      [
+        "Students and young professionals struggle with finding a balance between work and personal responsibilities",
+        "this leads to increased stress",
+        "lack of sleep",
+        "and anxiety."
+      ],
+      "Problem" : "How might we improve students' sleeping habits by organizing and identifying areas of improvement within their daily routine?",
+      "Process" : 
+      [
+        "Interviewing young professionals",
+        "conducting surveys",
+        "journey maps",
+        "paper prototyping",
+        "wireframes."
+      ],
+      "Result" : 
+      [
+        "My initial question was why people have been sleeping less over the recent years",
+        "and through my research I learned that young professionals struggle with balancing the increasing pressures from work",
+        "along with their personal life. Therefore",
+        "I designed my application to plan and accommodate the many tasks that these people must manage",
+        "and allot a time slot in which the user can take a chance to step back and take a break."
+      ],
+      "tagline" : "Finding the balance between work and play.",
+      "thumbnail" : "https://drive.google.com/open?id=0B1daJ7iHNkCVdDgwMGJSX3JYMUE",
+      "Cover_img" : "https://lh4.googleusercontent.com/wBHOC1bzjYkENj-8TnU3bzPYaWLEcX3gaWMr2baXePGxqe0ZuLL_qbOL1yfQtpXvENRcMwYTMRCYzd8=w1922-h952-rw",
+      "project_type" : "Individual",
+      "bio" : 
+      [
+        "Combining my interest in art and human psychology",
+        "I found myself through Interaction Design. I've always had a love of aesthetics",
+        "and that has greatly influenced the way I approach projects",
+        "aiming for an effortless and intuitive experience",
+        "but also making sure work is aesthetically pleasing.\n\nWhen I am not designing",
+        "I'm usually drawing digitally",
+        "browsing the internet",
+        "watching embarrassing shows on Netflix",
+        "or taking snapchats of my dog."
+      ],
+      "portfolio_url" : "http://taryn.me/",
+      "student-skills" : 
+      [
+        "User Experience",
+        "User Interface",
+        "Prototyping",
+        "Usability Testing",
+        "Visual Design"
+      ]
+    }
+  ]
+}
