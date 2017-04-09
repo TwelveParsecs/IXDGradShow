@@ -135,7 +135,7 @@
         "game creation and copywriting."
       ],
       "portfolio_url" : "",
-      "student-skills" : "",
+      "student-skills" : "User Experience, Narrative, Motion",
       "headshot" : "Carley.png"
     },
     {
@@ -612,42 +612,6 @@
         "Visual Design",
         "Motion Design"
       ],
-      "headshot" : ""
-    },
-    {
-      "projID" : "t2tk",
-      "name" : [
-        "Rico Suico",
-        "Yurria Byun"
-      ],
-      "Project" : "Zen Butterflies",
-      "Format" : [
-        "Installation",
-        "Kinect"
-      ],
-      "Year" : "Second Year",
-      "Skills" : [
-        "Visual Design",
-        "Prototyping",
-        "Development"
-      ],
-      "Description" : "Zen Butterflies is an interactive kinect installation that tracks the users hands to influence the movement of butterflies on the screen. It provides a simple interaction to lighten students' moods amidst a stressful time period.",
-      "Situation" : "Stress and anxiety affects a large percentage of the student population during the final weeks of school. Students need time without mental strain to calm and recharge their mind and body.",
-      "Problem" : "This project tackles the issue of stress which can lead to negative effects on mental and physical health.",
-      "Process" : [
-        "Before starting the project",
-        "we researched different methods of relaxation and used it to lead our approach on this issue. During implementation",
-        "we used cool colours to create a calm environment ideal for stress relief."
-      ],
-      "Result" : "The outcome was a simple installation that provided students a few minutes break from their busy schedules. This project taught us a lot about development and prototyping to ensure the final product works as intended live.",
-      "tagline" : "Give your mind a break and destress with the help of luminous butterflies and soothing music.",
-      "thumbnail" : "http://phoenix.sheridanc.on.ca/~ixd41/wp-content/uploads/2017/04/zen400x300.jpg",
-      "Cover_img" : "http://phoenix.sheridanc.on.ca/~ixd41/wp-content/uploads/2017/04/zen300x960.jpg",
-      "other_imgs" : "",
-      "project_type" : "Group",
-      "bio" : "",
-      "portfolio_url" : "",
-      "student-skills" : "",
       "headshot" : ""
     }
   ]
