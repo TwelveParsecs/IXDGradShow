@@ -127,14 +127,14 @@ a:hover {
   height: 90%;
   top: 0;
   left: 0;
-  padding: calc(5vh) calc((100vw - 960px)/2);
+  padding: calc(1vh) calc((100vw - 960px)/2);
   pointer-events: none;
 }
 
 /* line 139, style.scss */
 #modal {
   background-color: white;
-  height: calc(90vh - 50px);
+  height: 98vh;
   overflow: auto;
   pointer-events: auto;
 }
