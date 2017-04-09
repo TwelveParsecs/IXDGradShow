@@ -118,8 +118,19 @@
                     <img src="images/headshots/{{headshot}}" class="round" alt="">
                     <h3>{{name}}</h3>
 
-                    <p class="format">{{student-skills}}</p>
-                    <p>{{bio}}</p>
+                    <p class="format">
+                      {{#each student-skills}}
+                        {{#unless @last}} {{this}},&nbsp;{{/unless}}
+                        {{#if @last}} {{this}} {{/if}}
+                      {{/each}}
+                    </p>
+                    <p>
+                      <!--handle commas in bio being exported as array delimiters-->
+                      {{#each bio}}
+                        {{#unless @last}} {{this}},&nbsp;{{/unless}}
+                        {{#if @last}} {{this}} {{/if}}
+                      {{/each}}
+                    </p>
 
                     <p><a href="{{portfolio_url}}">Portfolio →</a></p>
                 </div>

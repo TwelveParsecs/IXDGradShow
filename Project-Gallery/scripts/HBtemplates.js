@@ -3,15 +3,19 @@ Handlebars.registerHelper("counter", function (index){
 });
 
 // var jsonData = "https://twelveparsecs.github.io/IXDGradShow/Project-Gallery/json/ixd_projects.json";
-var jsonData = "https://twelveparsecs.github.io/IXDGradShow/Project-Gallery/json/ixd_projects_3.json";
+var jsonData = "json/ixd_projects_3.json";
 
 // var jsonData = "json/ixd_projects_2.json";
 
 // asynchronous call
 $.getJSON(jsonData, function(json) {
-
+console.log("called");
     var template = $('#gallery').html();
     var templateScript = Handlebars.compile(template);
+
+    // randomize project order
+    var shuffledArray = shuffle(json["projects"]);
+
     var html = templateScript(json);
     $("#proj-container").append(html);
 
@@ -33,3 +37,16 @@ Handlebars.registerHelper("debug", function(optionalValue) {
     console.log(optionalValue);
   }
 });
+
+
+
+function shuffle(sourceArray) {
+    for (var i = 0; i < sourceArray.length - 1; i++) {
+        var j = i + Math.floor(Math.random() * (sourceArray.length - i));
+
+        var temp = sourceArray[j];
+        sourceArray[j] = sourceArray[i];
+        sourceArray[i] = temp;
+    }
+    return sourceArray;
+}
