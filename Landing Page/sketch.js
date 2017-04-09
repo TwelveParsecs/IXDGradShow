@@ -28,10 +28,15 @@ var frequency = [];
 // soft-body dynamics
 var organicConstant = 1.0;
 
+var canvas = createCanvas(window.innerWidth, window.innerHeight);
+
 
 function setup() {
-    var canvas = createCanvas(960, 480);
+
     canvas.id = 'canvas';
+    canvas.style.width = w1;
+    canvas.style.height = h1;
+
     canvas.parent('canvas-block')
     background(255);
 
@@ -131,6 +136,10 @@ function changeColors() {
 	bgR = Math.floor(Math.random() * 255);
 	bgG = Math.floor(Math.random() * 255);
 	bgB = Math.floor(Math.random() * 255);
+}
+
+function windowResized(){
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 

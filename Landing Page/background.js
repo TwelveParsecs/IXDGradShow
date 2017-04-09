@@ -246,9 +246,10 @@ mouseClicked = function() {
 
 
 //for responsive background, not perfect, but works
-window.onresize=function(){
-  var w1 = window.innerWidth;
-  var h1 = window.innerHeight;
-  canvas.size(w1,h1);
+function windowResized(){
+  resizeCanvas(windowWidth,windowHeight);
   loadSet();
+	var sketch = document.getElementById("sketch");
+	sketch.style.width = windowWidth + "px";
+	sketch.style.height = windowHeight + "px";
 }

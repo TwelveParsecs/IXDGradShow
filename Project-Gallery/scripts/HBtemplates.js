@@ -3,7 +3,7 @@ Handlebars.registerHelper("counter", function (index){
 });
 
 // var jsonData = "https://twelveparsecs.github.io/IXDGradShow/Project-Gallery/json/ixd_projects.json";
-var jsonData = "https://twelveparsecs.github.io/IXDGradShow/Project-Gallery/json/ixd_projects_2.json";
+var jsonData = "https://twelveparsecs.github.io/IXDGradShow/Project-Gallery/json/ixd_projects_3.json";
 
 // var jsonData = "json/ixd_projects_2.json";
 
