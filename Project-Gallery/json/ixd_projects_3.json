@@ -512,55 +512,7 @@
       ],
       "headshot" : "Arwa.png"
     },
-    {
-      "projID" : "7vwa",
-      "name" : "Rebekah Reimer",
-      "Project" : "Openbook",
-      "Format" : "App",
-      "Year" : "Fourth Year",
-      "Skills" : [
-        "Branding",
-        "Development",
-        "Programming"
-      ],
-      "Description" : [
-        "Openbook is an app for reading graphic novels on the go in a simplified way",
-        "allowing users to discover old and new favorites in a streamlined experience."
-      ],
-      "Situation" : [
-        "I found through my research that reader apps are often far too bulky",
-        "with many unnecessary features that broke immersion while engaging with a novel."
-      ],
-      "Problem" : "I needed to design an app that would allow a user to interact with and search for new novels in a way that was simple and easy to navigate without unnecessary features.",
-      "Process" : [
-        "First I needed to understand how and what my target audience thought about reading graphic novels online as part of my research. From there I created paper prototypes",
-        "usability tests",
-        "wire frames and mock ups to develop my app before finally programming."
-      ],
-      "Result" : [
-        "Overall",
-        "this was a long and involved process that taught me so much regarding development of a brand and how to handle long term projects. I am proud of what I have achieved with this app and hope to be able to develop it further over time."
-      ],
-      "tagline" : "The simple way to find your next favorite.",
-      "thumbnail" : "http://i174.photobucket.com/albums/w116/silary/thumbnail.png",
-      "Cover_img" : "http://i174.photobucket.com/albums/w116/silary/coverimage.png",
-      "other_imgs" : [
-        "http://i174.photobucket.com/albums/w116/silary/additional1.png",
-        "http://i174.photobucket.com/albums/w116/silary/additional2.png"
-      ],
-      "project_type" : "Individual",
-      "bio" : [
-        "Rebekah has spent most of her life fascinated by history and science. She applies her skills by working on projects that reflect her love of these subjects",
-        "and she strives to develop meaningful",
-        "elegant designs and a fluent user experience through her ability to anticipate and execute viable layouts and solutions that meet and surpass the users desires and expectations."
-      ],
-      "portfolio_url" : "rebekahreimer.com",
-      "student-skills" : [
-        "UX Interface and Design",
-        "Motion graphics"
-      ],
-      "headshot" : "Rebekah.png"
-    },
+  
     {
       "projID" : "x8bd",
       "name" : "Harrisson Joseph",
@@ -613,6 +565,55 @@
         "Motion Design"
       ],
       "headshot" : ""
+    },
+    {
+      "projID" : "7vwa",
+      "name" : "Rebekah Reimer",
+      "Project" : "Openbook",
+      "Format" : "App",
+      "Year" : "Fourth Year",
+      "Skills" : [
+        "Branding",
+        "Development",
+        "Programming"
+      ],
+      "Description" : [
+        "Openbook is an app for reading graphic novels on the go in a simplified way",
+        "allowing users to discover old and new favorites in a streamlined experience."
+      ],
+      "Situation" : [
+        "I found through my research that reader apps are often far too bulky",
+        "with many unnecessary features that broke immersion while engaging with a novel."
+      ],
+      "Problem" : "I needed to design an app that would allow a user to interact with and search for new novels in a way that was simple and easy to navigate without unnecessary features.",
+      "Process" : [
+        "First I needed to understand how and what my target audience thought about reading graphic novels online as part of my research. From there I created paper prototypes",
+        "usability tests",
+        "wire frames and mock ups to develop my app before finally programming."
+      ],
+      "Result" : [
+        "Overall",
+        "this was a long and involved process that taught me so much regarding development of a brand and how to handle long term projects. I am proud of what I have achieved with this app and hope to be able to develop it further over time."
+      ],
+      "tagline" : "The simple way to find your next favorite.",
+      "thumbnail" : "http://i174.photobucket.com/albums/w116/silary/thumbnail.png",
+      "Cover_img" : "http://i174.photobucket.com/albums/w116/silary/coverimage.png",
+      "other_imgs" : [
+        "http://i174.photobucket.com/albums/w116/silary/additional1.png",
+        "http://i174.photobucket.com/albums/w116/silary/additional2.png"
+      ],
+      "project_type" : "Individual",
+      "bio" : [
+        "Rebekah has spent most of her life fascinated by history and science. She applies her skills by working on projects that reflect her love of these subjects",
+        "and she strives to develop meaningful",
+        "elegant designs and a fluent user experience through her ability to anticipate and execute viable layouts and solutions that meet and surpass the users desires and expectations."
+      ],
+      "portfolio_url" : "rebekahreimer.com",
+      "student-skills" : [
+        "UX Interface and Design",
+        "Motion graphics"
+      ],
+      "headshot" : "Rebekah.png"
     }
   ]
 }
