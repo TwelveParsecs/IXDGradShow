@@ -73,8 +73,8 @@
       ],
       "Result" : "I learned that gaining insight from the user is important in order to be able to identify the needs when creating an app. ",
       "tagline" : "An app that gives everything you need about the festival.",
-      "thumbnail" : "https://lh6.googleusercontent.com/ksabZEf0IN2w_J5UPNiKeFDuNp9gkU6WmqDtg2g5YceIxKPiib2x96tIjlyRplMudObgRYo7kwgMnmM=w1920-h950",
-      "Cover_img" : "https://lh4.googleusercontent.com/dCryRXstGp4c92RCkS_JIWzUkEmmqGx_udsiGNp9HnNInTs5rLdMD7vdZJ4qxg92BaXnUhMax_qpWHI=w1920-h950-rw",
+      "thumbnail" : "images/projects/fringe_thumb.jpg",
+      "Cover_img" : "images/projects/fringe.png",
       "other_imgs" : "",
       "project_type" : "Individual",
       "bio" : [
@@ -135,7 +135,7 @@
         "game creation and copywriting."
       ],
       "portfolio_url" : "",
-      "student-skills" : "User Experience, Narrative, Motion",
+      "student-skills" : ["User Experience", "Narrative", "Motion"],
       "headshot" : "Carley.png"
     },
     {
@@ -254,8 +254,8 @@
         "therefore improving the experience and allowing inclusivity within my application."
       ],
       "tagline" : "Giving adults with Down Syndrome the opportunity to create lasting friendships. ",
-      "thumbnail" : "http://phoenix.sheridanc.on.ca/~ixd17/wp-content/uploads/2017/04/thumbnail-samantha-redmond.png",
-      "Cover_img" : "http://phoenix.sheridanc.on.ca/~ixd17/wp-content/uploads/2017/04/cover-img-samantha-redmond1.png",
+      "thumbnail" : "http://phoenix.sheridanc.on.ca/~ixd17/wp-content/uploads/2017/04/thumbnail-samantha-redmond1.png",
+      "Cover_img" : "http://phoenix.sheridanc.on.ca/~ixd17/wp-content/uploads/2017/04/cover-img-samantha-redmond2.png",
       "other_imgs" : "",
       "project_type" : "Individual",
       "bio" : [
@@ -351,8 +351,8 @@
         "I effectively learned how to create and adhere to a project schedule."
       ],
       "tagline" : "An app that provides the user with the tools and information in macronutrient tracking. Providing the user with sustainable and achievable goals that can be redirected throughout their personal health and fitness journey. ",
-      "thumbnail" : "https://lh5.googleusercontent.com/VM850DuHZINYCmNT_sJGx2RlmMxaHlbd9KEG5u4pRG-qYgbCawgQdkmV48hIp0o0gRyHX_To7LaY6gM=w1920-h950",
-      "Cover_img" : "https://lh5.googleusercontent.com/NtN4_BfpO_RJguTzVL1iTSGUVSI4TNS4S-s9SnIRTSnLrLghPNSWxRjP6qZ5EqLSGVDbg-U_5xuFTTw=w1920-h950-rw",
+      "thumbnail" : "images/projects/nutria_thumb.jpg",
+      "Cover_img" : "images/projects/nutria.webp",
       "other_imgs" : "",
       "project_type" : "Individual",
       "bio" : [
@@ -413,8 +413,8 @@
         "and allot a time slot in which the user can take a chance to step back and take a break."
       ],
       "tagline" : "Finding the balance between work and play.",
-      "thumbnail" : "https://lh6.googleusercontent.com/M-e1nLxc-SQxhKdvHSeJrEOZY0RcE6L_R9Kifil1mByyP_xKT5FG6_ZAGkEqQhfPaImGNci80XCqvjU=w1920-h950",
-      "Cover_img" : "https://lh5.googleusercontent.com/g8t7658rr-ocToBIN2H68PO4Mw0xhgXzxBmOXxF4Rl2BAoYAQxVoBj2exe3ciV5LOibQGMz_PJSIpZs=w1920-h950-rw",
+      "thumbnail" : "images/projects/intermission_thumb.png",
+      "Cover_img" : "images/projects/intermission.webp",
       "other_imgs" : "",
       "project_type" : "Individual",
       "bio" : [
@@ -495,7 +495,7 @@
       ],
       "Result" : "The result was mostly a positive one. I was able to learn different experiences and scenarios that students or other users of how would they use the app.",
       "tagline" : "Provides Sheridan user with extra features such as classroom access and printing.",
-      "thumbnail" : "https://lh6.googleusercontent.com/CXHCJIPMrJmmkFmrNeFzKcTtPY2Exg1XiQJoxGMAqn5Svw_DKmpArv8zReMLO_ICCTiksE79H7ddUWg=w1920-h950",
+      "thumbnail" : "http://i347.photobucket.com/albums/p473/yixiangsherry/2222-01_zpsuqw0gspq.png",
       "Cover_img" : "https://lh4.googleusercontent.com/NEviGKUXwwEEk1tUQErV57wWR7-p4NCZIQuBSv0ADjabk2prHnWpHftJoHCiKtotAlCToAw5Vi_ECR0=w1920-h950-rw",
       "other_imgs" : "",
       "project_type" : "Individual",
@@ -512,7 +512,7 @@
       ],
       "headshot" : "Arwa.png"
     },
-  
+
     {
       "projID" : "x8bd",
       "name" : "Harrisson Joseph",
