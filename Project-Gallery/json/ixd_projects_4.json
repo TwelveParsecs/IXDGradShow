@@ -56,7 +56,7 @@
       "Process" : "In order to solve it, I did research about its demographics, interviewed users, built prototypes and wireframes and UI styles of the app. This helped me better understand the needs and wants of the app for users.",
       "Result" : "I learned that gaining insight from the user is important in order to be able to identify the needs when creating an app. ",
       "tagline" : "An app that gives everything you need about the festival.",
-      "thumbnail" : "images/projectsfringe_thumb.jpg",
+      "thumbnail" : "images/projects/fringe_thumb.jpg",
       "Cover_img" : "images/projects/fringe.png",
       "project_type" : "Individual",
       "bio" : "Hi there, I'm Arwa and have a variety of interests that have allowed me to apply that knowledge to Interaction Design. There are so many things to explore around me and learning how people use and interact with the world around them interests me even more since the world is always changing. I hope to keep exploring and learning new things so I can apply them. ",
@@ -318,7 +318,7 @@
       "Process" : "Give instant feedback, reduce steps for booking, easy to return the car",
       "Result" : "Make the whole flow smooth and positive.",
       "tagline" : "My thesis project is a car rental web app with lots of interactive visual elements, the process of car rental is easy to use because of interactive visual feedback",
-      "thumbnail" : "images/projects/offyougo_thumb.png",
+      "thumbnail" : "images/projects/offyougo_thumb.jpg",
       "Cover_img" : "images/projects/offyougo.webp",
       "project_type" : "Individual",
       "headshot" : "Yi.png"
@@ -345,8 +345,8 @@
       "Process" : "By interviewing students, building app prototypes and user testing, I understood their needs. User testing with students helped me understand what they needed such as printing and buying things outside of Sheridan with the app. ",
       "Result" : "The result was mostly a positive one. I was able to learn different experiences and scenarios that students or other users of how would they use the app.",
       "tagline" : "Provides Sheridan user with extra features such as classroom access and printing.",
-      "thumbnail" : "https://lh6.googleusercontent.com/CXHCJIPMrJmmkFmrNeFzKcTtPY2Exg1XiQJoxGMAqn5Svw_DKmpArv8zReMLO_ICCTiksE79H7ddUWg=w1920-h950",
-      "Cover_img" : "https://lh4.googleusercontent.com/NEviGKUXwwEEk1tUQErV57wWR7-p4NCZIQuBSv0ADjabk2prHnWpHftJoHCiKtotAlCToAw5Vi_ECR0=w1920-h950-rw",
+      "thumbnail" : "images/projects/sheridanapp_thumb.jpg",
+      "Cover_img" : "images/projects/sheridanapp.webp",
       "project_type" : "Individual",
       "bio" : "Hi there, I'm Arwa and have a variety of interests that have allowed me to apply that knowledge to Interaction Design. There are so many things to explore around me and learning how people use and interact with the world around them interests me even more since the world is always changing. I hope to keep exploring and learning new things so I can apply them. ",
       "portfolio_url" : "http://www.behance.net/alkadiarwaeecf",
@@ -448,7 +448,7 @@
       "tagline" : "Give your mind a break and destress with the help of luminous butterflies and soothing music.",
       "thumbnail" : "http://phoenix.sheridanc.on.ca/~ixd41/wp-content/uploads/2017/04/zen400x300.jpg",
       "Cover_img" : "http://phoenix.sheridanc.on.ca/~ixd41/wp-content/uploads/2017/04/zen300x960.jpg",
-      "project_type" : "Group",
+      "project_type" : "Group"
     }
   ]
 }
